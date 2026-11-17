@@ -1,6 +1,6 @@
 # Verificación de URLs y SEO
 
-Local: http://localhost:3000 — 2026-11-17T21:18:09.693Z
+Local: http://localhost:3000 — 2026-11-17T22:18:21.131Z
 
 | Tipo | URLs | OK |
 |---|---|---|

@@ -14,12 +14,15 @@
   object-fit: cover;
 }
 
-/* El texto empieza 18 px bajo la imagen, como en el original (su caja de línea es más alta que la letra). */
+/*
+ * Nombre: la primera línea empieza 18 px bajo la imagen y cada línea extra suma 1.5em, como en el original
+ * (los nombres largos ocupan 2 líneas). El margen negativo compensa el interlineado de la primera línea.
+ */
 .title {
-  height: 24px;
-  padding-top: 2px;
+  margin-top: -0.25em;
+  padding-bottom: 1.5px;
   font-size: var(--fs-body);
-  line-height: 1;
+  line-height: 1.5;
 }
 
 .title a {
@@ -38,6 +41,10 @@
   .media {
     height: 250px;
   }
+
+  .title {
+    padding-bottom: 2.75px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -50,7 +57,6 @@
   }
 
   .title {
-    height: 21px;
-    padding-top: 1px;
+    padding-bottom: 1px;
   }
 }

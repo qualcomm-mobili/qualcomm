@@ -1,0 +1,6 @@
+/* Lista como la del tema original: viñeta y 40 px de sangría, sin márgenes. */
+.list {
+  margin: 0;
+  padding-left: 40px;
+  list-style: disc;
+}

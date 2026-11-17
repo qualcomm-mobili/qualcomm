@@ -27,6 +27,37 @@ const toRich = (html) =>
       .replace(/&#8220;|&#8221;/g, '"'),
   ).replace(/ ?⏎ ?/g, "\n");
 
+/**
+ * Texto enriquecido de un widget de texto de Elementor recorriendo el HTML: **negritas**, saltos (<br>) y
+ * listas (<ul>/<li>) como líneas "- item". El salto entre el texto y la lista es el separador de líneas,
+ * así RichText reproduce exactamente los <br> del original.
+ */
+function richFromHtml(html) {
+  const $ = cheerio.load(`<div id="r">${html || ""}</div>`);
+  let out = "";
+  let afterList = false;
+  const text = (t) => {
+    const v = t.replace(/[\s\u00a0]+/g, " ");
+    if (!v.trim()) return;
+    if (afterList) { out += "\n"; afterList = false; }
+    out += out.endsWith("\n") || !out ? v.trimStart() : v;
+  };
+  const walk = (node) => {
+    for (const n of node.children ?? []) {
+      if (n.type === "text") text(n.data);
+      else if (n.name === "br") { out = out.replace(/ +$/, "") + "\n"; afterList = false; }
+      else if (n.name === "strong" || n.name === "b") { if (afterList) { out += "\n"; afterList = false; } out += "**"; walk(n); out += "**"; }
+      else if (n.name === "ul" || n.name === "ol") {
+        const items = $(n).children("li").map((_, li) => clean($(li).text())).get();
+        out = (out ? out.replace(/ +$/, "") + "\n" : "") + items.map((i) => `- ${i}`).join("\n");
+        afterList = true;
+      } else walk(n);
+    }
+  };
+  walk($("#r")[0]);
+  return out.replace(/\*\* +\*\*/g, " ").replace(/ +\n/g, "\n").trim();
+}
+
 const wcProducts = await json(`${SRC}/api/wc-products.json`);
 const wcCategories = await json(`${SRC}/api/wc-categories.json`);
 const inv = await json("data/inventory.json");
@@ -94,7 +125,7 @@ for (const p of wcProducts) {
     name: clean(cheerio.load(p.name).text()),
     categories: cats,
     primaryCategory: primary,
-    shortDescription: shortHtml ? toRich(shortHtml) : "",
+    shortDescription: shortHtml ? richFromHtml(shortHtml) : "",
     ...(p.description.trim() ? { description: toRich(p.description) } : {}),
     images,
     seo: seoFrom($, path),

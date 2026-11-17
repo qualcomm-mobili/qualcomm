@@ -24,6 +24,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <head>
         {/* Adobe Fonts (acumin-pro 800/900) — mismo kit que el sitio original. */}
         <link rel="preconnect" href="https://use.typekit.net" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://p.typekit.net" crossOrigin="anonymous" />
         <link rel="stylesheet" href="https://use.typekit.net/xyu6pxi.css" />
       </head>
       <body>

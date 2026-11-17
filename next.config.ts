@@ -11,6 +11,14 @@ const nextConfig: NextConfig = {
   images: {
     qualities: [75],
   },
+  // Medios con nombre estable (las rutas de WordPress no cambian de contenido): caché inmutable de 1 año.
+  async headers() {
+    const immutable = [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }];
+    return [
+      { source: "/wp-content/uploads/:path*", headers: immutable },
+      { source: "/descargas/:path*", headers: immutable },
+    ];
+  },
   // 301 como WordPress (Next usaría 308 con `permanent: true`).
   async redirects() {
     return [
