@@ -1,0 +1,37 @@
+{
+  "seo": {
+    "title": "Soft Seating - Qualcomm Mobili Italiani",
+    "description": "Sumérgete en la comodidad sin igual de nuestra exclusiva colección de Soft Seating. Diseñada para transformar cualquier espacio en un oasis de confort,",
+    "canonical": "/soft-seating/",
+    "ogType": "article",
+    "published": "2023-11-24T13:47:40-06:00",
+    "modified": "2023-11-25T08:03:38-06:00"
+  },
+  "title": "Soft Seating",
+  "intro": "Sumérgete en la comodidad sin igual de nuestra exclusiva colección de Soft Seating. Diseñada para transformar cualquier espacio en un oasis de confort, nuestras opciones de asientos suaves combinan estilo y ergonomía. Descubre la fusión perfecta de elegancia y relajación, elevando tu experiencia de mobiliario a un nuevo nivel de sofisticación y bienestar.",
+  "blocks": [
+    {
+      "type": "products",
+      "products": [
+        "alejandria",
+        "bali",
+        "bubble",
+        "com-sette",
+        "dakota",
+        "h2o",
+        "italia",
+        "jonas",
+        "kube",
+        "leo",
+        "modular",
+        "niza",
+        "polonia",
+        "poppea",
+        "raffa",
+        "sofia",
+        "thai",
+        "zip"
+      ]
+    }
+  ]
+}

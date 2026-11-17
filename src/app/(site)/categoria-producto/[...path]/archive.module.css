@@ -1,0 +1,10 @@
+.title {
+  margin-bottom: 0.625rem;
+  font-size: var(--fs-h2);
+}
+
+@media (max-width: 1024px) {
+  .title {
+    margin-bottom: 0;
+  }
+}

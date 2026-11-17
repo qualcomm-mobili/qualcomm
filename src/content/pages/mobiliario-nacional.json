@@ -1,0 +1,57 @@
+{
+  "seo": {
+    "title": "Mobiliario Nacional - Qualcomm Mobili Italiani",
+    "description": "Muebles de primera categoría diseñados para satisfacer las necesidades de tu espacio de trabajo. La colección de mobiliario nacional representa un compromiso",
+    "canonical": "/mobiliario-nacional/",
+    "ogType": "article",
+    "published": "2023-11-24T13:46:31-06:00",
+    "modified": "2023-11-27T13:00:14-06:00"
+  },
+  "title": "Mobiliario Nacional",
+  "intro": "Muebles de primera categoría diseñados para satisfacer las necesidades de tu espacio de trabajo. La colección de mobiliario nacional representa un compromiso con la calidad y la producción interna.",
+  "blocks": [
+    {
+      "type": "banner",
+      "image": "/wp-content/uploads/2023/11/mobiliario-nacional-cover.jpeg"
+    },
+    {
+      "type": "heading",
+      "title": "Líneas disponibles"
+    },
+    {
+      "type": "subcategories",
+      "items": [
+        {
+          "category": "linea-temx",
+          "label": "Línea TEMX",
+          "image": "/wp-content/uploads/2023/11/TEMX-One-1.jpg"
+        },
+        {
+          "category": "linea-air-duo",
+          "label": "Línea Air Duo",
+          "image": "/wp-content/uploads/2023/11/Air-Duo-AD1-1.jpg"
+        },
+        {
+          "category": "linea-basic",
+          "label": "Línea Basic",
+          "image": "/wp-content/uploads/2023/11/Basic-BA1-1.jpg"
+        },
+        {
+          "category": "linea-quadri",
+          "label": "Línea Quadri",
+          "image": "/wp-content/uploads/2023/11/Quadri-Q3-1.jpeg"
+        },
+        {
+          "category": "linea-versatil",
+          "label": "Línea Versátil",
+          "image": "/wp-content/uploads/2023/11/Versatil-V1-1.jpg"
+        },
+        {
+          "category": "linea-dinamo",
+          "label": "Línea Dinamo",
+          "image": "/wp-content/uploads/2023/11/Dinamo-1.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.media {
+  position: relative;
+  display: block;
+  height: 270px;
+}
+
+.media img {
+  object-fit: cover;
+}
+
+/* El texto empieza 18 px bajo la imagen, como en el original (su caja de línea es más alta que la letra). */
+.title {
+  height: 24px;
+  padding-top: 2px;
+  font-size: var(--fs-body);
+  line-height: 1;
+}
+
+.title a {
+  color: var(--c-heading);
+}
+
+.title a:hover {
+  color: var(--c-accent-hover);
+}
+
+@media (max-width: 1024px) {
+  .card {
+    gap: 17px;
+  }
+
+  .media {
+    height: 250px;
+  }
+}
+
+@media (max-width: 767px) {
+  .card {
+    gap: 18px;
+  }
+
+  .media {
+    height: 150px;
+  }
+
+  .title {
+    height: 21px;
+    padding-top: 1px;
+  }
+}

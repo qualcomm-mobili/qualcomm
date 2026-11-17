@@ -1,0 +1,145 @@
+/*
+ * Design tokens — extraídos del CSS en vivo de qualcomm.com.mx (kit Elementor post-6 + plantillas).
+ * Breakpoints (Elementor, sin personalizar):
+ *   móvil   ≤ 767px
+ *   tablet  768px – 1024px
+ *   desktop ≥ 1025px
+ *   (la Home usa además un corte propio en 1168px para la cuadrícula de "Bienvenidos")
+ * CSS no admite variables en @media, así que los cortes se escriben literales en cada módulo.
+ */
+:root {
+  /* Colores globales del kit */
+  --c-heading: #444245; /* títulos, menú, enlaces de listas */
+  --c-text: #504c51; /* texto de cuerpo */
+  --c-accent: #ea8835; /* naranja: botones, enlaces */
+  --c-accent-hover: #f7a662;
+  --c-cream: #f8f3e9; /* fondo header + inicio del degradado del hero */
+  --c-sand: #e8ddd1; /* final del degradado del hero */
+  --c-cream-light: #fefcfa;
+  --c-gray-bg: #f7f7f7; /* secciones grises, footer */
+  --c-muted: #969696;
+  --c-line: #e0e0e0;
+  --c-error: #ff5252;
+  --c-white: #ffffff;
+  --c-black: #000000;
+
+  /* Tipografía
+   * Títulos: acumin-pro (Adobe Fonts, kit xyu6pxi — solo trae pesos 800 y 900).
+   * Cuerpo: el sitio original declara Open Sans en el kit pero NINGÚN elemento la usa;
+   * lo que se ve es la pila de sistema del tema Hello Elementor. Se replica tal cual. */
+  --font-heading: "acumin-pro", var(--font-heading-fallback, sans-serif);
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --fs-body: 1.125rem; /* 18px */
+  --fs-h2: 3.125rem; /* 50px */
+  --fs-small: 0.875rem; /* 14px */
+  --fs-nav: 1rem;
+  --lh-body: 1.5;
+
+  /* Layout */
+  --container-max: 1140px;
+  --container-width: 100%;
+  --gap-widget: 20px; /* separación por defecto entre widgets de Elementor */
+  --space-section: 150px; /* padding vertical típico de sección */
+  --radius-button: 2px;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --fs-body: 1.063rem;
+    --fs-h2: 2.813rem;
+    --container-max: 1024px;
+    --container-width: 95%;
+    --space-section: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --fs-body: 1rem;
+    --fs-h2: 2.5rem;
+    --container-max: 767px;
+    --container-width: 92%;
+    --space-section: 80px;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--c-white);
+  color: var(--c-text);
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: var(--c-heading);
+  font-family: var(--font-heading);
+  font-weight: 800;
+  line-height: 1;
+}
+
+h2 {
+  font-size: var(--fs-h2);
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--c-accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--c-accent-hover);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Contenedor "boxed" de Elementor: 1140px en desktop, 95% en tablet, 92% en móvil. */
+.container {
+  width: var(--container-width);
+  max-width: var(--container-max);
+  margin-inline: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

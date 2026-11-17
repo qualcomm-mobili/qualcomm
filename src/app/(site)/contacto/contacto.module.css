@@ -1,0 +1,16 @@
+/* El original usa 64px arriba y 0 abajo en desktop (100/100 en tablet, 80/80 en móvil). */
+/* Clase doble: gana a los estilos base de <Section> sin depender del orden de carga. */
+.section.section {
+  padding-top: 64px;
+  padding-bottom: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .section.section {
+    padding-block: var(--space-section);
+  }
+}

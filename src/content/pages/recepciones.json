@@ -1,0 +1,26 @@
+{
+  "seo": {
+    "title": "Recepciones - Qualcomm Mobili Italiani",
+    "description": "Presentamos nuestra colección de recepciones, compuesta por cinco modelos con diseños únicos y funcionales. Cada recepción ha sido cuidadosamente diseñada",
+    "canonical": "/recepciones/",
+    "ogType": "article",
+    "published": "2023-11-24T13:47:00-06:00",
+    "modified": "2023-11-28T12:06:52-06:00"
+  },
+  "title": "Recepciones",
+  "intro": "Presentamos nuestra colección de recepciones, compuesta por cinco modelos con diseños únicos y funcionales. Cada recepción ha sido cuidadosamente diseñada para transmitir una imagen profesional y acogedora a tus espacios de recepción. Fabricadas con materiales de alta calidad, combinamos la durabilidad de la melamina con la elegancia de las repisas de cristal o melamina, creando un equilibrio perfecto entre estilo y practicidad. Ya sea que busques un aspecto moderno, clásico o vanguardista, nuestras recepciones te brindan una combinación perfecta de estilo y utilidad para recibir a tus visitantes con elegancia y profesionalismo.",
+  "blocks": [
+    {
+      "type": "products",
+      "products": [
+        "amsterdam",
+        "dublin",
+        "moka",
+        "recepcion-praga",
+        "recepcion-toulouse",
+        "turin",
+        "valencia"
+      ]
+    }
+  ]
+}

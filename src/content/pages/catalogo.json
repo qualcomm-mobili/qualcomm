@@ -1,0 +1,44 @@
+{
+  "seo": {
+    "title": "Catálogo - Qualcomm Mobili Italiani",
+    "description": "Sumérgete en el mundo del prestigio Italiano y lo mejor de la fabricación nacional en muebles de oficina y sillería.",
+    "canonical": "/catalogo/",
+    "ogType": "article",
+    "published": "2023-11-28T11:36:47-06:00",
+    "modified": "2023-11-28T12:16:39-06:00"
+  },
+  "title": "Catálogo",
+  "intro": "Sumérgete en el mundo del prestigio Italiano y lo mejor de la fabricación nacional en muebles de oficina y sillería.",
+  "categories": [
+    {
+      "label": "Mobiliario italiano",
+      "href": "/mobiliario-italiano/",
+      "image": "/wp-content/uploads/2023/11/Uno-1.jpg"
+    },
+    {
+      "label": "Mobiliario nacional",
+      "href": "/mobiliario-nacional/",
+      "image": "/wp-content/uploads/2023/11/Air-Duo-AD3-1.jpg"
+    },
+    {
+      "label": "Recepciones",
+      "href": "/recepciones/",
+      "image": "/wp-content/uploads/2023/11/Moka-1.jpg"
+    },
+    {
+      "label": "Sofás",
+      "href": "/sofas/",
+      "image": "/wp-content/uploads/2023/11/Cairo.jpg"
+    },
+    {
+      "label": "Soft seating",
+      "href": "/soft-seating/",
+      "image": "/wp-content/uploads/2023/11/BALI-1.jpg"
+    },
+    {
+      "label": "Sillería",
+      "href": "/silleria/",
+      "image": "/wp-content/uploads/2023/11/Orlando-con-cabecera-1.jpg"
+    }
+  ]
+}

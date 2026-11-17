@@ -1,0 +1,239 @@
+{
+  "name": "Qualcomm",
+  "titleSuffix": "Qualcomm Mobili Italiani",
+  "url": "https://qualcomm.com.mx",
+  "locale": "es_MX",
+  "favicons": {
+    "icon32": "/wp-content/uploads/2023/11/cropped-favicon-32x32.png",
+    "icon192": "/wp-content/uploads/2023/11/cropped-favicon-192x192.png",
+    "apple": "/wp-content/uploads/2023/11/cropped-favicon-180x180.png"
+  },
+  "logos": {
+    "header": "/wp-content/uploads/2023/11/qualcomm-mobili-italiani-logo.svg",
+    "headerCompact": "/wp-content/uploads/2023/11/qualcomm-mobili-italiani-logo-header.svg",
+    "footer": "/wp-content/uploads/2023/11/qualcomm-logo-footer.svg",
+    "menuIcon": "/wp-content/uploads/2023/11/ico-menu.svg"
+  },
+  "homeHref": "/home/",
+  "nav": {
+    "primary": [
+      {
+        "label": "Home",
+        "href": "/home/"
+      },
+      {
+        "label": "Qualcomm",
+        "href": "/qualcomm/"
+      },
+      {
+        "label": "Proyectos",
+        "href": "/proyectos/"
+      },
+      {
+        "label": "Showroom",
+        "href": "/showroom/"
+      },
+      {
+        "label": "Descargar catálogo",
+        "href": "/descargar-catalogo/"
+      },
+      {
+        "label": "Contacto",
+        "href": "/contacto/"
+      },
+      {
+        "label": "Muestrario",
+        "href": "/descargas/Muestrario-de-telas-2026.pdf",
+        "external": true
+      }
+    ],
+    "catalog": [
+      {
+        "label": "Mobiliario Italiano",
+        "href": "/mobiliario-italiano/"
+      },
+      {
+        "label": "Mobiliario Nacional",
+        "href": "/mobiliario-nacional/"
+      },
+      {
+        "label": "Recepciones",
+        "href": "/recepciones/"
+      },
+      {
+        "label": "Sofás",
+        "href": "/sofas/"
+      },
+      {
+        "label": "Soft Seating",
+        "href": "/soft-seating/"
+      },
+      {
+        "label": "Sillería",
+        "href": "/silleria/"
+      }
+    ]
+  },
+  "menuGroups": [
+    {
+      "title": "Qualcomm",
+      "links": [
+        {
+          "label": "Home",
+          "href": "/home/"
+        },
+        {
+          "label": "Nosotros",
+          "href": "/qualcomm/"
+        },
+        {
+          "label": "Proyectos",
+          "href": "/proyectos/"
+        },
+        {
+          "label": "Aviso de privacidad",
+          "href": "/aviso-de-privacidad/"
+        }
+      ]
+    },
+    {
+      "title": "Catálogo",
+      "links": [
+        {
+          "label": "Mobiliario italiano",
+          "href": "/mobiliario-italiano/"
+        },
+        {
+          "label": "Mobiliario nacional",
+          "href": "/mobiliario-nacional/"
+        },
+        {
+          "label": "Recepciones",
+          "href": "/recepciones/"
+        },
+        {
+          "label": "Sofás",
+          "href": "/sofas/"
+        },
+        {
+          "label": "Soft seating",
+          "href": "/soft-seating/"
+        },
+        {
+          "label": "Sillería",
+          "href": "/silleria/"
+        },
+        {
+          "label": "Descargar catálogo",
+          "href": "/descargar-catalogo/"
+        },
+        {
+          "label": "Muestrario",
+          "href": "/descargas/Muestrario-de-telas-2026.pdf",
+          "external": true
+        }
+      ]
+    },
+    {
+      "title": "Contacto",
+      "links": [
+        {
+          "label": "Escríbenos",
+          "href": "/contacto/"
+        },
+        {
+          "label": "Showroom",
+          "href": "/showroom/"
+        }
+      ]
+    }
+  ],
+  "address": [
+    "Prolongación Ruiz Cortines 2941",
+    "Col. Policía Auxiliar",
+    "Guadalupe, NL, C.P. 67114"
+  ],
+  "socials": [
+    {
+      "label": "Facebook",
+      "href": "https://www.facebook.com/QualcommMx/",
+      "icon": "/wp-content/uploads/2023/11/ico-facebook.svg"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/qualcommmx/",
+      "icon": "/wp-content/uploads/2023/11/ico-instagram.svg"
+    },
+    {
+      "label": "Twitter",
+      "href": "https://twitter.com/qualcommmx",
+      "icon": "/wp-content/uploads/2023/11/ico-twitter.svg"
+    }
+  ],
+  "copyright": "©2023 – Qualcomm",
+  "cta": {
+    "title": "Trabajemos juntos",
+    "text": "Contáctanos y deja que uno de nuestros agentes especializados te asesore con las mejores opciones para amueblar tu siguiente proyecto.",
+    "slideshow": [
+      "/wp-content/uploads/2023/11/cta-formulario-01.jpeg",
+      "/wp-content/uploads/2023/11/cta-formulario-02-1.jpeg",
+      "/wp-content/uploads/2023/11/cta-formulario-03-1.jpeg",
+      "/wp-content/uploads/2023/11/cta-formulario-04-1.jpeg",
+      "/wp-content/uploads/2023/11/cta-formulario-05-1.jpeg"
+    ],
+    "slideDurationMs": 2000,
+    "form": {
+      "note": "Réplica visual del formulario HubSpot (portal 20567623, form 44fb6e32-114c-4a6a-8f74-d22a8ea3cb9f). Sin conexión.",
+      "fields": [
+        {
+          "name": "firstname",
+          "label": "Nombre",
+          "type": "text"
+        },
+        {
+          "name": "lastname",
+          "label": "Apellido",
+          "type": "text"
+        },
+        {
+          "name": "company",
+          "label": "Nombre de la empresa",
+          "type": "text"
+        },
+        {
+          "name": "email",
+          "label": "Correo Electrónico",
+          "type": "email"
+        },
+        {
+          "name": "phone",
+          "label": "Teléfono",
+          "type": "tel"
+        },
+        {
+          "name": "message",
+          "label": "Mensaje",
+          "type": "textarea"
+        }
+      ],
+      "submit": "Enviar"
+    }
+  },
+  "whatsapp": {
+    "headline": "¡Solicita tu Cotización por Whatsapp!",
+    "agent": "Asesor Qualcomm",
+    "status": "Online",
+    "channel": "Whatsapp",
+    "avatar": "/terceros/tochat/Boy_blue.png",
+    "icon": "/terceros/tochat/whatsapp-icon.png"
+  },
+  "phone": "+52 81 8140 1400",
+  "email": "info@qualcomm.com.mx",
+  "postalAddress": {
+    "street": "Prolongación Ruiz Cortines 2941, Col. Policía Auxiliar",
+    "locality": "Guadalupe",
+    "region": "Nuevo León",
+    "postalCode": "67114",
+    "country": "MX"
+  }
+}

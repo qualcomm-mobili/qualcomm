@@ -1,0 +1,49 @@
+.group {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.title {
+  color: var(--c-heading);
+  font-weight: 700;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.list a {
+  color: var(--c-heading);
+  font-weight: 400;
+  transition: color 0.3s;
+}
+
+.list a:hover {
+  color: var(--c-accent-hover);
+}
+
+/* Menú overlay: grupos apilados separados por una línea (divider Elementor de 2px con 15px arriba/abajo). */
+.menu {
+  gap: 20px;
+}
+
+.menu + .menu {
+  margin-top: 20px;
+  padding-top: calc(15px + 2px + 15px + 20px);
+  background: linear-gradient(#f0f0f0, #f0f0f0) top 15px left / 100% 2px no-repeat;
+}
+
+/* Footer: columnas */
+.footer {
+  gap: 24px;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    gap: 20px;
+  }
+}

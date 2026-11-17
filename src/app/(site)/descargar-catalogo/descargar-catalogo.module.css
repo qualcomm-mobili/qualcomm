@@ -1,0 +1,17 @@
+.box {
+  padding: 64px;
+  background: var(--c-gray-bg);
+}
+
+@media (max-width: 1024px) {
+  .box {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* En móvil el formulario del original deja 32px extra bajo el botón. */
+  .box {
+    padding: 16px 16px 48px;
+  }
+}

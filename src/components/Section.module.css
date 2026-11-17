@@ -1,0 +1,29 @@
+.section {
+  padding-top: var(--space-section);
+}
+
+.both {
+  padding-bottom: var(--space-section);
+}
+
+.gray {
+  margin-bottom: var(--space-section);
+  background: var(--c-gray-bg);
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-widget);
+}
+
+.title {
+  margin-bottom: 0.625rem;
+  font-size: var(--fs-h2);
+}
+
+@media (max-width: 1024px) {
+  .title {
+    margin-bottom: 0;
+  }
+}

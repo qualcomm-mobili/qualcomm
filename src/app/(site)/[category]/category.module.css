@@ -1,0 +1,47 @@
+/* Portada de la categoría (fondo cover). */
+.banner {
+  position: relative;
+  height: 390px;
+  margin-block: 60px;
+}
+
+.banner img {
+  object-fit: cover;
+}
+
+/* Títulos de línea ("Línea Larus", "Líneas disponibles"). */
+.heading {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.headingSpace {
+  padding-bottom: 60px;
+}
+
+@media (max-width: 1024px) {
+  .banner {
+    height: 288px;
+    margin-block: 50px;
+  }
+
+  .headingSpace {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner {
+    height: 176px;
+    margin-block: 20px;
+  }
+
+  .heading {
+    font-size: 20px;
+    line-height: 1.12;
+  }
+
+  .headingSpace {
+    padding-bottom: 20px;
+  }
+}

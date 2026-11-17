@@ -1,0 +1,22 @@
+.button {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 12px 24px;
+  border-radius: var(--radius-button);
+  background: var(--c-accent);
+  color: var(--c-white);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  transition: background-color 0.3s;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.button:hover,
+.button:focus-visible {
+  background: var(--c-accent-hover);
+  color: var(--c-white);
+}

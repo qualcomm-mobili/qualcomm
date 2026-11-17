@@ -1,0 +1,121 @@
+.title {
+  text-transform: uppercase;
+}
+
+/* Cuadrícula de 12 columnas (como el contenedor grid de Elementor). */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.tile {
+  position: relative;
+  min-height: 380px;
+}
+
+.tile img {
+  object-fit: cover;
+}
+
+.a {
+  grid-area: 1 / 1 / 2 / 6;
+}
+.b {
+  grid-area: 1 / 6 / 2 / 9;
+}
+.c {
+  grid-area: 1 / 9 / 2 / 13;
+}
+.text {
+  grid-area: 2 / 1 / 3 / 6;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-widget);
+  padding: 48px 48px 0 0;
+}
+.d {
+  grid-area: 2 / 6 / 3 / 13;
+  min-height: 680px;
+}
+
+.isotype {
+  display: block;
+  width: 64px;
+  height: auto;
+}
+
+.quote {
+  margin-bottom: 50px;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 35.2px;
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    margin-top: 2rem;
+  }
+
+  .tile {
+    min-height: 300px;
+  }
+
+  .a {
+    grid-area: 1 / 1 / 2 / 8;
+  }
+  .b {
+    grid-area: 1 / 8 / 2 / 13;
+  }
+  .text {
+    grid-area: 2 / 1 / 3 / 13;
+    padding: 32px 0;
+  }
+  .c {
+    grid-area: 3 / 1 / 4 / 6;
+  }
+  .d {
+    grid-area: 3 / 6 / 4 / 13;
+    min-height: 300px;
+  }
+
+  .quote {
+    margin-bottom: 0;
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .grid {
+    margin-top: 1rem;
+  }
+
+  .a {
+    grid-area: 1 / 1 / 2 / 13;
+    min-height: 280px;
+  }
+  .b {
+    grid-area: 2 / 1 / 3 / 7;
+    min-height: 150px;
+  }
+  .c {
+    grid-area: 2 / 7 / 3 / 13;
+    min-height: 150px;
+  }
+  .text {
+    grid-area: 3 / 1 / 4 / 13;
+    padding: 16px 0;
+  }
+  .d {
+    grid-area: 4 / 1 / 5 / 13;
+    min-height: 280px;
+  }
+
+  .quote {
+    font-size: 22.4px;
+    line-height: 25.6px;
+  }
+}

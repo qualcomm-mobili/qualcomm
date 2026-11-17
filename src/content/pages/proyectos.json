@@ -1,0 +1,313 @@
+{
+  "seo": {
+    "title": "Proyectos - Qualcomm Mobili Italiani",
+    "description": "Llénate de ideas e inspiración para tu próximo proyecto.",
+    "canonical": "/proyectos/",
+    "ogType": "article",
+    "ogImage": "/wp-content/uploads/2023/11/cantera-01.jpg",
+    "published": "2023-11-22T11:32:38-06:00",
+    "modified": "2023-11-23T17:23:23-06:00"
+  },
+  "title": "Proyectos",
+  "intro": "Llénate de ideas e inspiración para tu próximo proyecto.",
+  "projects": [
+    {
+      "title": "Proyecto Cantera",
+      "images": [
+        "/wp-content/uploads/2023/11/cantera-01.jpg",
+        "/wp-content/uploads/2023/11/cantera-02.jpg",
+        "/wp-content/uploads/2023/11/cantera-03.jpg",
+        "/wp-content/uploads/2023/11/cantera-04.jpg",
+        "/wp-content/uploads/2023/11/cantera-05.jpg",
+        "/wp-content/uploads/2023/11/cantera-06.jpg",
+        "/wp-content/uploads/2023/11/cantera-07.jpg",
+        "/wp-content/uploads/2023/11/cantera-08.jpg",
+        "/wp-content/uploads/2023/11/cantera-09.jpg",
+        "/wp-content/uploads/2023/11/cantera-10.jpg",
+        "/wp-content/uploads/2023/11/cantera-11.jpg"
+      ]
+    },
+    {
+      "title": "Proyecto Carnicería",
+      "images": [
+        "/wp-content/uploads/2023/11/maria-cristina-01.jpg",
+        "/wp-content/uploads/2023/11/maria-cristina-02.jpg",
+        "/wp-content/uploads/2023/11/maria-cristina-03.jpg",
+        "/wp-content/uploads/2023/11/maria-cristina-04.jpg",
+        "/wp-content/uploads/2023/11/maria-cristina-05.jpg",
+        "/wp-content/uploads/2023/11/maria-cristina-06.jpg",
+        "/wp-content/uploads/2023/11/maria-cristina-07.jpg",
+        "/wp-content/uploads/2023/11/maria-cristina-08.jpg",
+        "/wp-content/uploads/2023/11/maria-cristina-09.jpg",
+        "/wp-content/uploads/2023/11/maria-cristina-10.jpg",
+        "/wp-content/uploads/2023/11/maria-cristina-11.jpg",
+        "/wp-content/uploads/2023/11/maria-cristina-12.jpg",
+        "/wp-content/uploads/2023/11/maria-cristina-13.jpg",
+        "/wp-content/uploads/2023/11/maria-cristina-14.jpg"
+      ]
+    },
+    {
+      "title": "Proyecto Santa Catarina",
+      "images": [
+        "/wp-content/uploads/2023/11/castel-metals-01.jpg",
+        "/wp-content/uploads/2023/11/castel-metals-02.jpg",
+        "/wp-content/uploads/2023/11/castel-metals-03.jpg",
+        "/wp-content/uploads/2023/11/castel-metals-04.jpg",
+        "/wp-content/uploads/2023/11/castel-metals-05.jpg",
+        "/wp-content/uploads/2023/11/castel-metals-06.jpg",
+        "/wp-content/uploads/2023/11/castel-metals-07.jpg",
+        "/wp-content/uploads/2023/11/castel-metals-08.jpg",
+        "/wp-content/uploads/2023/11/castel-metals-09.jpg",
+        "/wp-content/uploads/2023/11/castel-metals-10.jpg",
+        "/wp-content/uploads/2023/11/castel-metals-11.jpg",
+        "/wp-content/uploads/2023/11/castel-metals-12.jpg",
+        "/wp-content/uploads/2023/11/castel-metals-13.jpg",
+        "/wp-content/uploads/2023/11/castel-metals-14.jpg",
+        "/wp-content/uploads/2023/11/castel-metals-15.jpg",
+        "/wp-content/uploads/2023/11/castel-metals-16.jpg",
+        "/wp-content/uploads/2023/11/castel-metals-17.jpg",
+        "/wp-content/uploads/2023/11/castel-metals-18.jpg",
+        "/wp-content/uploads/2023/11/castel-metals-19.jpg"
+      ]
+    },
+    {
+      "title": "Proyecto Centro",
+      "images": [
+        "/wp-content/uploads/2023/11/comedores-industriales-01.jpg",
+        "/wp-content/uploads/2023/11/comedores-industriales-02.jpg",
+        "/wp-content/uploads/2023/11/comedores-industriales-03.jpg",
+        "/wp-content/uploads/2023/11/comedores-industriales-04.jpg",
+        "/wp-content/uploads/2023/11/comedores-industriales-05.jpg",
+        "/wp-content/uploads/2023/11/comedores-industriales-06.jpg",
+        "/wp-content/uploads/2023/11/comedores-industriales-07.jpg",
+        "/wp-content/uploads/2023/11/comedores-industriales-08.jpg",
+        "/wp-content/uploads/2023/11/comedores-industriales-09.jpg",
+        "/wp-content/uploads/2023/11/comedores-industriales-10.jpg",
+        "/wp-content/uploads/2023/11/comedores-industriales-11.jpg",
+        "/wp-content/uploads/2023/11/comedores-industriales-12.jpg",
+        "/wp-content/uploads/2023/11/comedores-industriales-13.jpg",
+        "/wp-content/uploads/2023/11/comedores-industriales-14.jpg"
+      ]
+    },
+    {
+      "title": "Proyecto Oficina Escobedo",
+      "images": [
+        "/wp-content/uploads/2023/11/eaton-01.jpg",
+        "/wp-content/uploads/2023/11/eaton-02.jpg",
+        "/wp-content/uploads/2023/11/eaton-03.jpg",
+        "/wp-content/uploads/2023/11/eaton-04.jpg",
+        "/wp-content/uploads/2023/11/eaton-05.jpg",
+        "/wp-content/uploads/2023/11/eaton-06.jpg",
+        "/wp-content/uploads/2023/11/eaton-07.jpg",
+        "/wp-content/uploads/2023/11/eaton-08.jpg",
+        "/wp-content/uploads/2023/11/eaton-09.jpg",
+        "/wp-content/uploads/2023/11/eaton-10.jpg",
+        "/wp-content/uploads/2023/11/eaton-11.jpg",
+        "/wp-content/uploads/2023/11/eaton-12.jpg",
+        "/wp-content/uploads/2023/11/eaton-13.jpg"
+      ]
+    },
+    {
+      "title": "Proyecto Ramos Arizpe",
+      "images": [
+        "/wp-content/uploads/2023/11/fives-01.jpg",
+        "/wp-content/uploads/2023/11/fives-02.jpg",
+        "/wp-content/uploads/2023/11/fives-03.jpg",
+        "/wp-content/uploads/2023/11/fives-04.jpg",
+        "/wp-content/uploads/2023/11/fives-05.jpg",
+        "/wp-content/uploads/2023/11/fives-06.jpg",
+        "/wp-content/uploads/2023/11/fives-07.jpg"
+      ]
+    },
+    {
+      "title": "Proyecto Oficina Gonzalitos",
+      "images": [
+        "/wp-content/uploads/2023/11/konaha-01.jpg",
+        "/wp-content/uploads/2023/11/konaha-02.jpg",
+        "/wp-content/uploads/2023/11/konaha-03.jpg",
+        "/wp-content/uploads/2023/11/konaha-04.jpg",
+        "/wp-content/uploads/2023/11/konaha-05.jpg",
+        "/wp-content/uploads/2023/11/konaha-06.jpg",
+        "/wp-content/uploads/2023/11/konaha-07.jpg",
+        "/wp-content/uploads/2023/11/konaha-08.jpg",
+        "/wp-content/uploads/2023/11/konaha-09.jpg"
+      ]
+    },
+    {
+      "title": "Proyecto Torre Quadra 1",
+      "images": [
+        "/wp-content/uploads/2023/11/multiservicios-01.jpg",
+        "/wp-content/uploads/2023/11/multiservicios-02.jpg",
+        "/wp-content/uploads/2023/11/multiservicios-03.jpg",
+        "/wp-content/uploads/2023/11/multiservicios-04.jpg",
+        "/wp-content/uploads/2023/11/multiservicios-05.jpg",
+        "/wp-content/uploads/2023/11/multiservicios-06.jpg",
+        "/wp-content/uploads/2023/11/multiservicios-07.jpg",
+        "/wp-content/uploads/2023/11/multiservicios-08.jpg"
+      ]
+    },
+    {
+      "title": "Proyecto Cadereyta",
+      "images": [
+        "/wp-content/uploads/2023/11/oqa-01.jpg",
+        "/wp-content/uploads/2023/11/oqa-02.jpg",
+        "/wp-content/uploads/2023/11/oqa-03.jpg",
+        "/wp-content/uploads/2023/11/oqa-04.jpg",
+        "/wp-content/uploads/2023/11/oqa-05.jpg",
+        "/wp-content/uploads/2023/11/oqa-06.jpg",
+        "/wp-content/uploads/2023/11/oqa-07.jpg",
+        "/wp-content/uploads/2023/11/oqa-08.jpg",
+        "/wp-content/uploads/2023/11/oqa-09.jpg",
+        "/wp-content/uploads/2023/11/oqa-10.jpg",
+        "/wp-content/uploads/2023/11/oqa-11.jpg",
+        "/wp-content/uploads/2023/11/oqa-12.jpg",
+        "/wp-content/uploads/2023/11/oqa-13.jpg",
+        "/wp-content/uploads/2023/11/oqa-14.jpg",
+        "/wp-content/uploads/2023/11/oqa-15.jpg",
+        "/wp-content/uploads/2023/11/oqa-16.jpg",
+        "/wp-content/uploads/2023/11/oqa-17.jpg",
+        "/wp-content/uploads/2023/11/oqa-18.jpg",
+        "/wp-content/uploads/2023/11/oqa-19.jpg",
+        "/wp-content/uploads/2023/11/oqa-20.jpg",
+        "/wp-content/uploads/2023/11/oqa-21.jpg",
+        "/wp-content/uploads/2023/11/oqa-22.jpg",
+        "/wp-content/uploads/2023/11/oqa-23.jpg"
+      ]
+    },
+    {
+      "title": "Proyectos para el Hogar",
+      "images": [
+        "/wp-content/uploads/2023/11/closet-01.jpg",
+        "/wp-content/uploads/2023/11/bano-03.jpg",
+        "/wp-content/uploads/2023/11/bano-01.jpg",
+        "/wp-content/uploads/2023/11/bano-02.jpg",
+        "/wp-content/uploads/2023/11/bano-04.jpg",
+        "/wp-content/uploads/2023/11/bano-05.jpg",
+        "/wp-content/uploads/2023/11/bano-06.jpg",
+        "/wp-content/uploads/2023/11/closet-02.jpg",
+        "/wp-content/uploads/2023/11/cocina-01.jpg",
+        "/wp-content/uploads/2023/11/cocina-02.jpg",
+        "/wp-content/uploads/2023/11/cocina-03.jpg",
+        "/wp-content/uploads/2023/11/cocina-04.jpg",
+        "/wp-content/uploads/2023/11/complemento-01.jpg",
+        "/wp-content/uploads/2023/11/complemento-02.jpg",
+        "/wp-content/uploads/2023/11/complemento-03.jpg"
+      ]
+    },
+    {
+      "title": "Proyecto Torre Quadra 2",
+      "images": [
+        "/wp-content/uploads/2023/11/petrovim-01.jpg",
+        "/wp-content/uploads/2023/11/petrovim-02.jpg",
+        "/wp-content/uploads/2023/11/petrovim-03.jpg",
+        "/wp-content/uploads/2023/11/petrovim-04.jpg",
+        "/wp-content/uploads/2023/11/petrovim-05.jpg",
+        "/wp-content/uploads/2023/11/petrovim-06.jpg",
+        "/wp-content/uploads/2023/11/petrovim-07.jpg",
+        "/wp-content/uploads/2023/11/petrovim-08.jpg",
+        "/wp-content/uploads/2023/11/petrovim-09.jpg",
+        "/wp-content/uploads/2023/11/petrovim-10.jpg"
+      ]
+    },
+    {
+      "title": "Proyecto Plaza Nacional",
+      "images": [
+        "/wp-content/uploads/2023/11/salon-fabian-02.jpg",
+        "/wp-content/uploads/2023/11/salon-fabian-01.jpg",
+        "/wp-content/uploads/2023/11/salon-fabian-03.jpg",
+        "/wp-content/uploads/2023/11/salon-fabian-04.jpg",
+        "/wp-content/uploads/2023/11/salon-fabian-05.jpg",
+        "/wp-content/uploads/2023/11/salon-fabian-06.jpg",
+        "/wp-content/uploads/2023/11/salon-fabian-07.jpg",
+        "/wp-content/uploads/2023/11/salon-fabian-08.jpg",
+        "/wp-content/uploads/2023/11/salon-fabian-09.jpg",
+        "/wp-content/uploads/2023/11/salon-fabian-10.jpg",
+        "/wp-content/uploads/2023/11/salon-fabian-11.jpg",
+        "/wp-content/uploads/2023/11/salon-fabian-12.jpg",
+        "/wp-content/uploads/2023/11/salon-fabian-13.jpg",
+        "/wp-content/uploads/2023/11/salon-fabian-14.jpg",
+        "/wp-content/uploads/2023/11/salon-fabian-15.jpg",
+        "/wp-content/uploads/2023/11/salon-fabian-16.jpg",
+        "/wp-content/uploads/2023/11/salon-fabian-17.jpg",
+        "/wp-content/uploads/2023/11/salon-fabian-18.jpg",
+        "/wp-content/uploads/2023/11/salon-fabian-19.jpg",
+        "/wp-content/uploads/2023/11/salon-fabian-20.jpg",
+        "/wp-content/uploads/2023/11/salon-fabian-21.jpg"
+      ]
+    },
+    {
+      "title": "Proyecto Los Soles",
+      "images": [
+        "/wp-content/uploads/2023/11/soxtec-01.jpg",
+        "/wp-content/uploads/2023/11/soxtec-02.jpg",
+        "/wp-content/uploads/2023/11/soxtec-03.jpg",
+        "/wp-content/uploads/2023/11/soxtec-04.jpg",
+        "/wp-content/uploads/2023/11/soxtec-05.jpg",
+        "/wp-content/uploads/2023/11/soxtec-06.jpg",
+        "/wp-content/uploads/2023/11/soxtec-07.jpg",
+        "/wp-content/uploads/2023/11/soxtec-08.jpg",
+        "/wp-content/uploads/2023/11/soxtec-09.jpg",
+        "/wp-content/uploads/2023/11/soxtec-10.jpg",
+        "/wp-content/uploads/2023/11/soxtec-11.jpg",
+        "/wp-content/uploads/2023/11/soxtec-12.jpg",
+        "/wp-content/uploads/2023/11/soxtec-13.jpg",
+        "/wp-content/uploads/2023/11/soxtec-14.jpg",
+        "/wp-content/uploads/2023/11/soxtec-15.jpg",
+        "/wp-content/uploads/2023/11/soxtec-16.jpg",
+        "/wp-content/uploads/2023/11/soxtec-17.jpg",
+        "/wp-content/uploads/2023/11/soxtec-18.jpg",
+        "/wp-content/uploads/2023/11/soxtec-19.jpg",
+        "/wp-content/uploads/2023/11/soxtec-20.jpg",
+        "/wp-content/uploads/2023/11/soxtec-21.jpg"
+      ]
+    },
+    {
+      "title": "Proyecto Sun Mall",
+      "images": [
+        "/wp-content/uploads/2023/11/sun-mall-01.jpg",
+        "/wp-content/uploads/2023/11/sun-mall-02.jpg",
+        "/wp-content/uploads/2023/11/sun-mall-03.jpg",
+        "/wp-content/uploads/2023/11/sun-mall-04.jpg",
+        "/wp-content/uploads/2023/11/sun-mall-05.jpg",
+        "/wp-content/uploads/2023/11/sun-mall-06.jpg",
+        "/wp-content/uploads/2023/11/sun-mall-07.jpg",
+        "/wp-content/uploads/2023/11/sun-mall-08.jpg",
+        "/wp-content/uploads/2023/11/sun-mall-09.jpg",
+        "/wp-content/uploads/2023/11/sun-mall-10.jpg"
+      ]
+    },
+    {
+      "title": "Proyecto Universidad",
+      "images": [
+        "/wp-content/uploads/2023/11/universidad-lux-01.jpg",
+        "/wp-content/uploads/2023/11/universidad-lux-02.jpg",
+        "/wp-content/uploads/2023/11/universidad-lux-03.jpg",
+        "/wp-content/uploads/2023/11/universidad-lux-04.jpg",
+        "/wp-content/uploads/2023/11/universidad-lux-05.jpg",
+        "/wp-content/uploads/2023/11/universidad-lux-06.jpg",
+        "/wp-content/uploads/2023/11/universidad-lux-07.jpg",
+        "/wp-content/uploads/2023/11/universidad-lux-08.jpg",
+        "/wp-content/uploads/2023/11/universidad-lux-09.jpg",
+        "/wp-content/uploads/2023/11/universidad-lux-10.jpg",
+        "/wp-content/uploads/2023/11/universidad-lux-11.jpg",
+        "/wp-content/uploads/2023/11/universidad-lux-12.jpg",
+        "/wp-content/uploads/2023/11/universidad-lux-13.jpg",
+        "/wp-content/uploads/2023/11/universidad-lux-14.jpg",
+        "/wp-content/uploads/2023/11/universidad-lux-15.jpg",
+        "/wp-content/uploads/2023/11/universidad-lux-16.jpg"
+      ]
+    },
+    {
+      "title": "Proyecto Torre Valor",
+      "images": [
+        "/wp-content/uploads/2023/11/torre-valor-2.jpeg",
+        "/wp-content/uploads/2023/11/torre-valor-7.jpeg",
+        "/wp-content/uploads/2023/11/torre-valor-3.jpeg",
+        "/wp-content/uploads/2023/11/torre-valor-1.jpeg",
+        "/wp-content/uploads/2023/11/torre-valor-4.jpeg",
+        "/wp-content/uploads/2023/11/torre-valor-5.jpeg",
+        "/wp-content/uploads/2023/11/torre-valor-6.jpeg"
+      ]
+    }
+  ]
+}

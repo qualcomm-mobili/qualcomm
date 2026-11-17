@@ -1,0 +1,66 @@
+/* Medidas tomadas del formulario de /descargar-catalogo/ (Elementor Pro, tamaño "lg"). */
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px 16px;
+}
+
+.group {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+}
+
+.half {
+  grid-column: span 1;
+}
+
+.label {
+  padding-bottom: 6.4px;
+  color: var(--c-heading);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+}
+
+.required::after {
+  content: "*";
+  padding-inline-start: 0.6em;
+  color: var(--c-error);
+}
+
+.field {
+  min-height: 59px;
+  padding: 7px 20px;
+  border: 2px solid rgba(150, 150, 150, 0.2);
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.5);
+  color: var(--c-text);
+  font: inherit;
+  font-size: 14.4px;
+}
+
+.submit {
+  min-height: 59px;
+  padding: 16px 0;
+  border: 0;
+  border-radius: var(--radius-button);
+  background: var(--c-accent);
+  color: var(--c-white);
+  font: inherit;
+  font-size: 14.4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit:hover {
+  background: var(--c-accent-hover);
+}
+
+@media (max-width: 767px) {
+  .half {
+    grid-column: 1 / -1;
+  }
+}

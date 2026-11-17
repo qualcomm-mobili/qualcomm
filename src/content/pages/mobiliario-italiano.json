@@ -1,0 +1,67 @@
+{
+  "seo": {
+    "title": "Mobiliario Italiano - Qualcomm Mobili Italiani",
+    "description": "Experimenta la sofisticación y el lujo, características emblemáticas del diseño Italiano. Embellece tu espacio con piezas que trascienden el tiempo y el",
+    "canonical": "/mobiliario-italiano/",
+    "ogType": "article",
+    "published": "2023-11-24T13:45:45-06:00",
+    "modified": "2023-11-25T08:32:59-06:00"
+  },
+  "title": "Mobiliario Italiano",
+  "intro": "Experimenta la sofisticación y el lujo, características emblemáticas del diseño Italiano. Embellece tu espacio con piezas que trascienden el tiempo y el estilo, descubre el encanto inigualable de la elegancia italiana en tus espacios de trabajo.",
+  "blocks": [
+    {
+      "type": "banner",
+      "image": "/wp-content/uploads/2023/11/mobiliario-italiano-cover.jpeg"
+    },
+    {
+      "type": "heading",
+      "title": "Línea Uno | Zero"
+    },
+    {
+      "type": "text",
+      "text": "Diseñada por Karim Rashid, renombrado diseñador industrial reconocido por su estilo innovador y vanguardista. Sus diseños audaces combinan formas orgánicas con colores vibrantes y patrones geométricos."
+    },
+    {
+      "type": "products",
+      "products": [
+        "uno",
+        "zero"
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "Línea Larus"
+    },
+    {
+      "type": "text",
+      "text": "Diseñada por Andrea Stramigioli, renombrado diseñador propietario del estudio Stramigioli Associati. Su curiosidad y gusto por enfrentarse a nuevos desafíos, así como su capacidad para interactuar e integrarse con diferentes culturas y profesiones, le han permitido crear espacios y ambientes en constante evolución."
+    },
+    {
+      "type": "products",
+      "products": [
+        "larus-lar-1",
+        "lar-2",
+        "lar-3",
+        "lar-4"
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "Línea Lithos"
+    },
+    {
+      "type": "text",
+      "text": "Diseñada por Paolo Pampanoni, fundador de Estudio Pampanoni. Su enfoque se basa en lograr un rendimiento en todos los aspectos del diseño. Su método se enfoca en las necesidades del cliente a través del análisis del trabajo y la evaluación de estrategias."
+    },
+    {
+      "type": "products",
+      "products": [
+        "lit-1",
+        "lit-2",
+        "lit-3",
+        "lit-4"
+      ]
+    }
+  ]
+}

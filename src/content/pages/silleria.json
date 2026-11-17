@@ -1,0 +1,69 @@
+{
+  "seo": {
+    "title": "Sillería - Qualcomm Mobili Italiani",
+    "description": "Descubre nuestra colección de sillería, donde el diseño innovador y la comodidad se unen. Desde sillas ejecutivas hasta industriales, ofrecemos soluciones",
+    "canonical": "/silleria/",
+    "ogType": "article",
+    "published": "2023-11-24T13:47:54-06:00",
+    "modified": "2023-11-27T13:44:02-06:00"
+  },
+  "title": "Sillería",
+  "intro": "Descubre nuestra colección de sillería, donde el diseño innovador y la comodidad se unen. Desde sillas ejecutivas hasta industriales, ofrecemos soluciones ergonómicas para cada entorno laboral.",
+  "blocks": [
+    {
+      "type": "heading",
+      "title": "Líneas disponibles",
+      "spaceAfter": true
+    },
+    {
+      "type": "subcategories",
+      "items": [
+        {
+          "category": "sillas-directivas",
+          "label": "Sillas directivas",
+          "image": "/wp-content/uploads/2023/11/Orlando-con-cabecera-1.jpg"
+        },
+        {
+          "category": "sillas-ejecutivas",
+          "label": "Sillas ejecutivas",
+          "image": "/wp-content/uploads/2023/11/Ovidio-1.jpg"
+        },
+        {
+          "category": "sillas-operativas",
+          "label": "Sillas operativas",
+          "image": "/wp-content/uploads/2023/11/Suiza-Negra-1.jpg"
+        },
+        {
+          "category": "sillas-secretariales",
+          "label": "Sillas secretariales",
+          "image": "/wp-content/uploads/2023/11/Junior-1.jpg"
+        },
+        {
+          "category": "sillas-industriales",
+          "label": "Sillas industriales",
+          "image": "/wp-content/uploads/2023/11/Silla-Industrial-con-Aro-1.jpg"
+        },
+        {
+          "category": "sillas-visita",
+          "label": "Sillas visita",
+          "image": "/wp-content/uploads/2023/11/Pinko-Tapizada-1.jpg"
+        },
+        {
+          "category": "sillas-escolar",
+          "label": "Sillas escolar",
+          "image": "/wp-content/uploads/2023/11/Pupitre-Vita-1.jpg"
+        },
+        {
+          "category": "taburetes",
+          "label": "Taburetes",
+          "image": "/wp-content/uploads/2023/11/Tom-1.jpg"
+        },
+        {
+          "category": "bancas",
+          "label": "Bancas",
+          "image": "/wp-content/uploads/2023/11/Banca-Karla-1.jpg"
+        }
+      ]
+    }
+  ]
+}

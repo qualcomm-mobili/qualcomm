@@ -1,0 +1,38 @@
+{
+  "cssFiles": 21,
+  "images": 28,
+  "downloaded": [
+    {
+      "url": "https://qualcomm.com.mx/wp-content/uploads/2023/11/mobiliario-nacional-cover.jpeg",
+      "bytes": 234006,
+      "from": "post-771.css"
+    },
+    {
+      "url": "https://qualcomm.com.mx/wp-content/uploads/2023/11/mobiliario-italiano-cover.jpeg",
+      "bytes": 421262,
+      "from": "post-769.css"
+    },
+    {
+      "url": "https://qualcomm.com.mx/wp-content/uploads/2023/11/qualcomm-01.jpg",
+      "bytes": 71344,
+      "from": "post-90.css"
+    },
+    {
+      "url": "https://qualcomm.com.mx/wp-content/uploads/2023/11/qualcomm-02.jpg",
+      "bytes": 91663,
+      "from": "post-90.css"
+    },
+    {
+      "url": "https://qualcomm.com.mx/wp-content/uploads/2023/11/qualcomm-03.jpg",
+      "bytes": 78087,
+      "from": "post-90.css"
+    },
+    {
+      "url": "https://qualcomm.com.mx/wp-content/uploads/2023/11/qualcomm-04.jpg",
+      "bytes": 64818,
+      "from": "post-90.css"
+    }
+  ],
+  "alreadyPresent": 22,
+  "failed": []
+}

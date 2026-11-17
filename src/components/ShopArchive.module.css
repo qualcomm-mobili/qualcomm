@@ -1,0 +1,132 @@
+/* Contenedor del tema Hello Elementor (.site-main): sus propios cortes, distintos a los de Elementor. */
+.main {
+  margin-inline: auto;
+  padding-inline: 10px;
+}
+
+@media (min-width: 576px) {
+  .main {
+    max-width: 500px;
+    padding-inline: 0;
+  }
+}
+@media (min-width: 768px) {
+  .main {
+    max-width: 600px;
+  }
+}
+@media (min-width: 992px) {
+  .main {
+    max-width: 800px;
+  }
+}
+@media (min-width: 1200px) {
+  .main {
+    max-width: 1140px;
+  }
+}
+
+.title {
+  margin: 8px 0 16px;
+  font-size: var(--fs-h2);
+  line-height: 1.2;
+}
+
+/* Contador a la izquierda y selector a la derecha (floats de WooCommerce). */
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.count,
+.ordering {
+  margin: 0 0 1em;
+}
+
+.select {
+  width: 276px;
+  height: 38px;
+  padding: 8px 16px;
+  border: 1px solid #666;
+  border-radius: 3px;
+  background: #fff;
+  color: #000;
+  font: inherit;
+  font-size: 16px;
+}
+
+@media (max-width: 767px) {
+  .ordering {
+    margin-left: auto;
+  }
+}
+
+/* Productos: 4 por fila (22.05% + 3.8% de margen), 2 por fila hasta 768px. */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 1em;
+}
+
+.product {
+  width: 22.05%;
+  margin: 0 3.8% 2.992em 0;
+}
+
+.product:nth-child(4n) {
+  margin-right: 0;
+}
+
+.link {
+  display: block;
+}
+
+.thumb {
+  position: relative;
+  display: block;
+  aspect-ratio: 1;
+  margin-bottom: 1em;
+}
+
+.thumb img {
+  object-fit: cover;
+}
+
+.name {
+  padding: 0.5em 0;
+  font-size: 1em;
+  line-height: 1.2;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.618em 1em;
+  border-radius: 3px;
+  background: #e9e6ed;
+  color: #515151;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.button:hover {
+  background: #dcd7e2;
+  color: #515151;
+}
+
+@media (max-width: 768px) {
+  .product {
+    width: 48%;
+    margin-right: 4%;
+  }
+
+  .product:nth-child(4n) {
+    margin-right: 4%;
+  }
+
+  .product:nth-child(2n) {
+    margin-right: 0;
+  }
+}

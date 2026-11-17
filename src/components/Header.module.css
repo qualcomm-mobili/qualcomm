@@ -1,0 +1,94 @@
+.header {
+  background: var(--c-cream);
+}
+
+/* ---------- Desktop ---------- */
+.desktop {
+  display: flex;
+  padding-block: 30px;
+}
+
+.logo {
+  flex: 0 0 15%;
+}
+
+.logo img {
+  display: block;
+  width: 115px;
+}
+
+.nav {
+  flex: 0 0 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 16px;
+}
+
+.primary,
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.primary a,
+.catalog a {
+  color: var(--c-heading);
+  font-weight: 400;
+  transition: color 0.3s;
+}
+
+.primary a:hover,
+.catalog a:hover {
+  color: var(--c-accent-hover);
+}
+
+.primary {
+  gap: 0 1.625rem;
+  font-size: var(--fs-nav);
+  line-height: 1.5;
+}
+
+.catalog {
+  gap: 0 2.5rem;
+  font-family: var(--font-heading);
+  font-size: 0.938rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+/* En el original el peso declarado es 400, pero el kit de Adobe solo trae 800/900 y el navegador usa 800. */
+.catalog a {
+  font-weight: 800;
+}
+
+/* ---------- Tablet / móvil: barra fija ---------- */
+.compact {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .compact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+  }
+
+  .logoCompact img {
+    display: block;
+    width: 164px;
+  }
+}

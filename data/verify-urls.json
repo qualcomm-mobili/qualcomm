@@ -1,0 +1,2371 @@
+[
+  {
+    "path": "/",
+    "kind": "pagina",
+    "expect": 200,
+    "cache": ".cache/source/html/_home.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/__portada/",
+    "kind": "pagina",
+    "expect": 404,
+    "cache": ".cache/source/html/__portada.html",
+    "status": 404,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/aviso-de-privacidad/",
+    "kind": "pagina",
+    "expect": 200,
+    "cache": ".cache/source/html/aviso-de-privacidad.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/carrito/",
+    "kind": "pagina",
+    "expect": 404,
+    "cache": ".cache/source/html/carrito.html",
+    "status": 404,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/catalogo/",
+    "kind": "pagina",
+    "expect": 200,
+    "cache": ".cache/source/html/catalogo.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/categoria-producto/mobiliario-italiano/",
+    "kind": "redirección",
+    "expect": 301,
+    "location": "/mobiliario-italiano/",
+    "status": 301,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/categoria-producto/mobiliario-italiano/larus/",
+    "kind": "redirección",
+    "expect": 301,
+    "location": "/mobiliario-italiano/",
+    "status": 301,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/categoria-producto/mobiliario-italiano/lithos/",
+    "kind": "redirección",
+    "expect": 301,
+    "location": "/mobiliario-italiano/",
+    "status": 301,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/categoria-producto/mobiliario-nacional/",
+    "kind": "redirección",
+    "expect": 301,
+    "location": "/mobiliario-nacional/",
+    "status": 301,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/categoria-producto/mobiliario-nacional/linea-air-duo/",
+    "kind": "archivo",
+    "expect": 200,
+    "cache": ".cache/source/html/categoria-producto/mobiliario-nacional/linea-air-duo.html",
+    "status": 200,
+    "problems": [],
+    "intentional": [
+      "twitter:title: «null» ≠ «Línea Air Duo – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>).",
+      "og:title: «null» ≠ «Línea Air Duo – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>)."
+    ]
+  },
+  {
+    "path": "/categoria-producto/mobiliario-nacional/linea-basic/",
+    "kind": "archivo",
+    "expect": 200,
+    "cache": ".cache/source/html/categoria-producto/mobiliario-nacional/linea-basic.html",
+    "status": 200,
+    "problems": [],
+    "intentional": [
+      "twitter:title: «null» ≠ «Línea Basic – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>).",
+      "og:title: «null» ≠ «Línea Basic – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>)."
+    ]
+  },
+  {
+    "path": "/categoria-producto/mobiliario-nacional/linea-dinamo/",
+    "kind": "archivo",
+    "expect": 200,
+    "cache": ".cache/source/html/categoria-producto/mobiliario-nacional/linea-dinamo.html",
+    "status": 200,
+    "problems": [],
+    "intentional": [
+      "twitter:title: «null» ≠ «Línea Dinamo – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>).",
+      "og:title: «null» ≠ «Línea Dinamo – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>)."
+    ]
+  },
+  {
+    "path": "/categoria-producto/mobiliario-nacional/linea-quadri/",
+    "kind": "archivo",
+    "expect": 200,
+    "cache": ".cache/source/html/categoria-producto/mobiliario-nacional/linea-quadri.html",
+    "status": 200,
+    "problems": [],
+    "intentional": [
+      "twitter:title: «null» ≠ «Línea Quadri – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>).",
+      "og:title: «null» ≠ «Línea Quadri – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>)."
+    ]
+  },
+  {
+    "path": "/categoria-producto/mobiliario-nacional/linea-temx/",
+    "kind": "archivo",
+    "expect": 200,
+    "cache": ".cache/source/html/categoria-producto/mobiliario-nacional/linea-temx.html",
+    "status": 200,
+    "problems": [],
+    "intentional": [
+      "twitter:title: «null» ≠ «Línea TEMX – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>).",
+      "og:title: «null» ≠ «Línea TEMX – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>)."
+    ]
+  },
+  {
+    "path": "/categoria-producto/mobiliario-nacional/linea-versatil/",
+    "kind": "archivo",
+    "expect": 200,
+    "cache": ".cache/source/html/categoria-producto/mobiliario-nacional/linea-versatil.html",
+    "status": 200,
+    "problems": [],
+    "intentional": [
+      "twitter:title: «null» ≠ «Línea Versátil – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>).",
+      "og:title: «null» ≠ «Línea Versátil – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>)."
+    ]
+  },
+  {
+    "path": "/categoria-producto/recepciones/",
+    "kind": "redirección",
+    "expect": 301,
+    "location": "/recepciones/",
+    "status": 301,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/categoria-producto/silleria/",
+    "kind": "redirección",
+    "expect": 301,
+    "location": "/silleria/",
+    "status": 301,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/categoria-producto/silleria/bancas/",
+    "kind": "archivo",
+    "expect": 200,
+    "cache": ".cache/source/html/categoria-producto/silleria/bancas.html",
+    "status": 200,
+    "problems": [],
+    "intentional": [
+      "twitter:title: «null» ≠ «Bancas – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>).",
+      "og:title: «null» ≠ «Bancas – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>)."
+    ]
+  },
+  {
+    "path": "/categoria-producto/silleria/sillas-directivas/",
+    "kind": "archivo",
+    "expect": 200,
+    "cache": ".cache/source/html/categoria-producto/silleria/sillas-directivas.html",
+    "status": 200,
+    "problems": [],
+    "intentional": [
+      "twitter:title: «null» ≠ «Sillas directivas – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>).",
+      "og:title: «null» ≠ «Sillas directivas – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>)."
+    ]
+  },
+  {
+    "path": "/categoria-producto/silleria/sillas-ejecutivas/",
+    "kind": "archivo",
+    "expect": 200,
+    "cache": ".cache/source/html/categoria-producto/silleria/sillas-ejecutivas.html",
+    "status": 200,
+    "problems": [],
+    "intentional": [
+      "twitter:title: «null» ≠ «Sillas ejecutivas – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>).",
+      "og:title: «null» ≠ «Sillas ejecutivas – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>)."
+    ]
+  },
+  {
+    "path": "/categoria-producto/silleria/sillas-escolar/",
+    "kind": "archivo",
+    "expect": 200,
+    "cache": ".cache/source/html/categoria-producto/silleria/sillas-escolar.html",
+    "status": 200,
+    "problems": [],
+    "intentional": [
+      "twitter:title: «null» ≠ «Sillas escolar – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>).",
+      "og:title: «null» ≠ «Sillas escolar – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>)."
+    ]
+  },
+  {
+    "path": "/categoria-producto/silleria/sillas-industriales/",
+    "kind": "archivo",
+    "expect": 200,
+    "cache": ".cache/source/html/categoria-producto/silleria/sillas-industriales.html",
+    "status": 200,
+    "problems": [],
+    "intentional": [
+      "twitter:title: «null» ≠ «Sillas industriales – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>).",
+      "og:title: «null» ≠ «Sillas industriales – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>)."
+    ]
+  },
+  {
+    "path": "/categoria-producto/silleria/sillas-operativas/",
+    "kind": "archivo",
+    "expect": 200,
+    "cache": ".cache/source/html/categoria-producto/silleria/sillas-operativas.html",
+    "status": 200,
+    "problems": [],
+    "intentional": [
+      "twitter:title: «null» ≠ «Sillas operativas – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>).",
+      "og:title: «null» ≠ «Sillas operativas – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>)."
+    ]
+  },
+  {
+    "path": "/categoria-producto/silleria/sillas-secretariales/",
+    "kind": "archivo",
+    "expect": 200,
+    "cache": ".cache/source/html/categoria-producto/silleria/sillas-secretariales.html",
+    "status": 200,
+    "problems": [],
+    "intentional": [
+      "twitter:title: «null» ≠ «Sillas secretariales – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>).",
+      "og:title: «null» ≠ «Sillas secretariales – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>)."
+    ]
+  },
+  {
+    "path": "/categoria-producto/silleria/sillas-visita/",
+    "kind": "archivo",
+    "expect": 200,
+    "cache": ".cache/source/html/categoria-producto/silleria/sillas-visita.html",
+    "status": 200,
+    "problems": [],
+    "intentional": [
+      "twitter:title: «null» ≠ «Sillas visita – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>).",
+      "og:title: «null» ≠ «Sillas visita – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>)."
+    ]
+  },
+  {
+    "path": "/categoria-producto/silleria/taburetes/",
+    "kind": "archivo",
+    "expect": 200,
+    "cache": ".cache/source/html/categoria-producto/silleria/taburetes.html",
+    "status": 200,
+    "problems": [],
+    "intentional": [
+      "twitter:title: «null» ≠ «Taburetes – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>).",
+      "og:title: «null» ≠ «Taburetes – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>)."
+    ]
+  },
+  {
+    "path": "/categoria-producto/sin-categorizar/",
+    "kind": "archivo",
+    "expect": 200,
+    "cache": ".cache/source/html/categoria-producto/sin-categorizar.html",
+    "status": 200,
+    "problems": [],
+    "intentional": [
+      "twitter:title: «null» ≠ «Sin categorizar – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>).",
+      "og:title: «null» ≠ «Sin categorizar – Qualcomm Mobili Italiani» — Rank Math no publica og:title/twitter:title en archivos de categoría; aquí sí (mismo texto que <title>)."
+    ]
+  },
+  {
+    "path": "/categoria-producto/sofas/",
+    "kind": "redirección",
+    "expect": 301,
+    "location": "/sofas/",
+    "status": 301,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/categoria-producto/soft-seating/",
+    "kind": "redirección",
+    "expect": 301,
+    "location": "/soft-seating/",
+    "status": 301,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/contacto/",
+    "kind": "pagina",
+    "expect": 200,
+    "cache": ".cache/source/html/contacto.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/descargar-catalogo/",
+    "kind": "pagina",
+    "expect": 200,
+    "cache": ".cache/source/html/descargar-catalogo.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/design-system/",
+    "kind": "pagina",
+    "expect": 404,
+    "cache": ".cache/source/html/design-system.html",
+    "status": 404,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/finalizar-compra/",
+    "kind": "pagina",
+    "expect": 404,
+    "cache": ".cache/source/html/finalizar-compra.html",
+    "status": 404,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/gracias-por-contactarnos/",
+    "kind": "pagina",
+    "expect": 200,
+    "cache": ".cache/source/html/gracias-por-contactarnos.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/home/",
+    "kind": "redirección",
+    "expect": 301,
+    "location": "/",
+    "status": 301,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/mi-cuenta/",
+    "kind": "pagina",
+    "expect": 404,
+    "cache": ".cache/source/html/mi-cuenta.html",
+    "status": 404,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/mi-cuenta/lost-password/",
+    "kind": "descubierta",
+    "expect": 404,
+    "status": 404,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/mobiliario-italiano/",
+    "kind": "pagina",
+    "expect": 200,
+    "cache": ".cache/source/html/mobiliario-italiano.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/mobiliario-nacional/",
+    "kind": "pagina",
+    "expect": 200,
+    "cache": ".cache/source/html/mobiliario-nacional.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/nueva/",
+    "kind": "pagina",
+    "expect": 404,
+    "cache": ".cache/source/html/nueva.html",
+    "status": 404,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/nueva/detalle-categoria/",
+    "kind": "pagina",
+    "expect": 404,
+    "cache": ".cache/source/html/nueva/detalle-categoria.html",
+    "status": 404,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/nueva/detalle-producto/",
+    "kind": "pagina",
+    "expect": 404,
+    "cache": ".cache/source/html/nueva/detalle-producto.html",
+    "status": 404,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/nueva/home/",
+    "kind": "pagina",
+    "expect": 404,
+    "cache": ".cache/source/html/nueva/home.html",
+    "status": 404,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/10-800/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/10-800.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/ad1/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/ad1.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/ad2/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/ad2.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/ad3/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/ad3.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/agata/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/agata.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/alejandria/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/alejandria.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/amsterdam/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/amsterdam.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/andy/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/andy.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/atenas/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/atenas.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/atlanta/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/atlanta.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/ba1/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/ba1.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/ba6/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/ba6.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/bali/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/bali.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/banca-airport/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/banca-airport.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/banca-chaya/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/banca-chaya.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/banca-karla/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/banca-karla.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/banca-new/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/banca-new.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/banca-valle-sport/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/banca-valle-sport.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/barcelona/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/barcelona.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/be15/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/be15.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/bini/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/bini.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/birmania/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/birmania.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/black-jack/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/black-jack.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/blitz-visita/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/blitz-visita.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/blitz/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/blitz.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/braun/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/braun.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/bubble/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/bubble.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/cairo/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/cairo.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/cannes/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/cannes.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/castell-visita/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/castell-visita.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/castell/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/castell.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/catullo-malla/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/catullo-malla.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/catullo-tela/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/catullo-tela.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/clementina/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/clementina.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/com-sette-2/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/com-sette-2.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/com-sette/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/com-sette.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/cristal/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/cristal.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/dakota/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/dakota.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/dinamo/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/dinamo.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/dubai-ii/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/dubai-ii.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/dublin/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/dublin.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/duilio/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/duilio.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/elegance-i/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/elegance-i.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/elegance-ii/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/elegance-ii.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/ergo/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/ergo.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/eugenia-con-cabecera-gris/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/eugenia-con-cabecera-gris.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/eugenia-con-cabecera/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/eugenia-con-cabecera.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/eugenia-sin-cabecera/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/eugenia-sin-cabecera.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/eureka-visita/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/eureka-visita.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/eureka/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/eureka.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/fanny-brazos/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/fanny-brazos.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/fanny-panelo/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/fanny-panelo.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/fanny/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/fanny.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/feel/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/feel.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/felicita-amarillo/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/felicita-amarillo.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/felicita-azul/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/felicita-azul.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/felicita-blanco/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/felicita-blanco.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/ferrovivo/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/ferrovivo.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/filo/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/filo.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/flight-malla/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/flight-malla.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/flight-tela/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/flight-tela.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/frill/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/frill.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/galaxy/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/galaxy.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/h2o/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/h2o.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/habana-con-cabecera/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/habana-con-cabecera.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/habana-sin-cabecera/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/habana-sin-cabecera.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/habana-trineo/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/habana-trineo.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/infinity/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/infinity.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/iso-net/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/iso-net.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/iso-secretarial/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/iso-secretarial.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/iso-visita/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/iso-visita.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/italia/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/italia.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/jojo/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/jojo.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/jonas/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/jonas.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/junior/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/junior.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/jupiter/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/jupiter.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/karl-2/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/karl-2.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/karl/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/karl.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/kind-malla/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/kind-malla.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/kind-tela/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/kind-tela.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/kontor/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/kontor.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/kube/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/kube.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/kuga/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/kuga.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/kuvie/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/kuvie.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/lar-2/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/lar-2.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/lar-3/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/lar-3.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/lar-4/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/lar-4.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/larus-lar-1/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/larus-lar-1.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/lavaredo/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/lavaredo.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/leo/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/leo.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/lit-1/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/lit-1.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/lit-2/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/lit-2.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/lit-3/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/lit-3.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/lit-4/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/lit-4.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/living/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/living.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/lunapiena/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/lunapiena.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/malaga/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/malaga.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/marbella/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/marbella.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/margot-negro/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/margot-negro.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/marilyn/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/marilyn.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/melania-con-cabecera/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/melania-con-cabecera.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/melania-sin-cabecera/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/melania-sin-cabecera.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/mesabanco-berlin/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/mesabanco-berlin.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/mesabanco-iso/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/mesabanco-iso.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/mesabanco-roma/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/mesabanco-roma.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/mesabanco-virgola/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/mesabanco-virgola.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/mesabanco-vita/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/mesabanco-vita.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/mika/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/mika.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/mimi-2/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/mimi-2.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/mimi/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/mimi.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/modular/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/modular.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/moka/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/moka.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/muzio/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/muzio.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/napolitana-con-brazos/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/napolitana-con-brazos.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/napolitana-sin-brazos/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/napolitana-sin-brazos.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/nilo-2/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/nilo-2.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/nilo/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/nilo.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/niza/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/niza.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/nova-iso-secretarial/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/nova-iso-secretarial.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/nova-iso-visita/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/nova-iso-visita.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/orlando-con-cabecera/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/orlando-con-cabecera.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/orlando-sin-cabecera/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/orlando-sin-cabecera.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/orlando-trineo/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/orlando-trineo.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/ovidio/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/ovidio.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/pablo/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/pablo.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/paco/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/paco.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/piero/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/piero.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/pinko-plastica-respaldo-malla/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/pinko-plastica-respaldo-malla.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/pinko-plastica/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/pinko-plastica.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/pinko-tapizada-respaldo-malla/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/pinko-tapizada-respaldo-malla.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/pinko-tapizada-tela/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/pinko-tapizada-tela.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/polonia/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/polonia.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/poppea/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/poppea.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/pull-2/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/pull-2.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/pull/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/pull.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/pupitre-vita/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/pupitre-vita.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/q11/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/q11.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/q16/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/q16.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/q18/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/q18.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/q20/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/q20.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/q22/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/q22.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/q23/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/q23.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/q3-con-cabecera/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/q3-con-cabecera.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/q3-sin-cabecera/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/q3-sin-cabecera.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/q3/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/q3.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/q4/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/q4.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/q6/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/q6.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/raffa/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/raffa.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/recepcion-praga/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/recepcion-praga.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/recepcion-toulouse/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/recepcion-toulouse.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/red/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/red.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/rene/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/rene.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/rodri/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/rodri.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/rolls/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/rolls.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/rz1-secretarial/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/rz1-secretarial.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/rz1/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/rz1.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/seneca-visita/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/seneca-visita.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/seneca/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/seneca.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/silla-berlin/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/silla-berlin.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/silla-industrial-con-aro/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/silla-industrial-con-aro.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/silla-industrial-sin-aro/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/silla-industrial-sin-aro.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/silla-plegable-space/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/silla-plegable-space.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/skeiter-cajero/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/skeiter-cajero.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/skeiter-secretarial/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/skeiter-secretarial.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/sofia/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/sofia.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/solar-gris/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/solar-gris.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/solar/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/solar.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/specchio-nero/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/specchio-nero.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/square/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/square.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/steel/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/steel.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/stilissima/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/stilissima.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/suiza-2/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/suiza-2.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/suiza-negra/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/suiza-negra.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/suiza/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/suiza.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/taburete-ergonomico/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/taburete-ergonomico.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/tauro/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/tauro.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/tela-gris/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/tela-gris.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/tela/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/tela.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/temx-one/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/temx-one.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/temx-two/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/temx-two.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/tenerife/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/tenerife.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/tessa/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/tessa.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/thai/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/thai.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/thank-you/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/thank-you.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/tom/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/tom.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/torino/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/torino.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/turin/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/turin.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/uno/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/uno.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/v1/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/v1.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/v3-hyb-lsp/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/v3-hyb-lsp.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/v3-hyb/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/v3-hyb.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/v4-met/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/v4-met.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/v7-met/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/v7-met.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/v8-mesa/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/v8-mesa.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/valencia/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/valencia.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/venus/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/venus.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/virgola/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/virgola.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/vita-movil/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/vita-movil.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/vita-trineo/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/vita-trineo.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/vita/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/vita.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/volare/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/volare.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/x3/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/x3.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/y10/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/y10.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/yeka-2/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/yeka-2.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/yeka/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/yeka.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/zero/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/zero.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/producto/zip/",
+    "kind": "producto",
+    "expect": 200,
+    "cache": ".cache/source/html/producto/zip.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/proyectos/",
+    "kind": "pagina",
+    "expect": 200,
+    "cache": ".cache/source/html/proyectos.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/qualcomm/",
+    "kind": "pagina",
+    "expect": 200,
+    "cache": ".cache/source/html/qualcomm.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/recepciones/",
+    "kind": "pagina",
+    "expect": 200,
+    "cache": ".cache/source/html/recepciones.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/showroom/",
+    "kind": "pagina",
+    "expect": 200,
+    "cache": ".cache/source/html/showroom.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/silleria/",
+    "kind": "pagina",
+    "expect": 200,
+    "cache": ".cache/source/html/silleria.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/sofas/",
+    "kind": "pagina",
+    "expect": 200,
+    "cache": ".cache/source/html/sofas.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/soft-seating/",
+    "kind": "pagina",
+    "expect": 200,
+    "cache": ".cache/source/html/soft-seating.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  },
+  {
+    "path": "/tienda/",
+    "kind": "pagina",
+    "expect": 200,
+    "cache": ".cache/source/html/tienda.html",
+    "status": 200,
+    "problems": [],
+    "intentional": []
+  }
+]

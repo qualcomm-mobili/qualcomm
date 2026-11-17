@@ -1,0 +1,300 @@
+[
+  {
+    "slug": "sin-categorizar",
+    "name": "Sin categorizar",
+    "parent": null,
+    "href": "/categoria-producto/sin-categorizar/",
+    "description": "",
+    "seo": {
+      "title": "Sin categorizar – Qualcomm Mobili Italiani",
+      "description": "",
+      "canonical": "/categoria-producto/sin-categorizar/",
+      "ogType": "article"
+    },
+    "layout": "woocommerce"
+  },
+  {
+    "slug": "mobiliario-nacional",
+    "name": "Mobiliario Nacional",
+    "parent": null,
+    "href": "/mobiliario-nacional/",
+    "description": "Muebles de primera categoría diseñados para satisfacer las necesidades de tu espacio de trabajo. La colección de mobiliario nacional representa un compromiso con la calidad y la producción interna.",
+    "image": "/wp-content/uploads/2023/11/soxtec-15.jpg"
+  },
+  {
+    "slug": "linea-quadri",
+    "name": "Línea Quadri",
+    "parent": "mobiliario-nacional",
+    "href": "/categoria-producto/mobiliario-nacional/linea-quadri/",
+    "description": "Línea de mobiliario, fabricada en dos materiales de alta calidad: el metal y melamina, juntos combinan durabilidad, estética y funcionalidad en cada pieza. Las líneas limpias y esenciales realzan y potencian la fuerte personalidad de Quadri. Un espacio de trabajo que no pasa desapercibido, sino que se caracteriza por su equilibrio, estilo, orden y racionalidad. Quadri es vivir y experimentar el entorno laboral con autenticidad y personalidad.",
+    "seo": {
+      "title": "Línea Quadri – Qualcomm Mobili Italiani",
+      "description": "",
+      "canonical": "/categoria-producto/mobiliario-nacional/linea-quadri/",
+      "ogType": "article",
+      "ogImage": "/wp-content/uploads/2023/11/Quadri-Q3-1.jpeg",
+      "ogDescription": "Línea de mobiliario, fabricada en dos materiales de alta calidad: el metal y melamina, juntos combinan durabilidad, estética y funcionalidad en cada pieza. Las líneas limpias y esenciales realzan y potencian la fuerte personalidad de Quadri. Un espacio de trabajo que no pasa desapercibido, sino que se caracteriza por su equilibrio, estilo, orden y racionalidad. Quadri es vivir y experimentar el entorno laboral con autenticidad y personalidad."
+    },
+    "layout": "elementor",
+    "image": "/wp-content/uploads/2023/11/Quadri-Q3-1.jpeg"
+  },
+  {
+    "slug": "soft-seating",
+    "name": "Soft Seating",
+    "parent": null,
+    "href": "/soft-seating/",
+    "description": ""
+  },
+  {
+    "slug": "silleria",
+    "name": "Sillería",
+    "parent": null,
+    "href": "/silleria/",
+    "description": "Descripción sillería"
+  },
+  {
+    "slug": "sillas-directivas",
+    "name": "Sillas directivas",
+    "parent": "silleria",
+    "href": "/categoria-producto/silleria/sillas-directivas/",
+    "description": "Experimenta el poder del liderazgo con nuestras sillas directivas. Diseñadas para reflejar autoridad y comodidad excepcional, estas sillas ofrecen el nivel más alto de estilo y soporte ejecutivo.",
+    "seo": {
+      "title": "Sillas directivas – Qualcomm Mobili Italiani",
+      "description": "",
+      "canonical": "/categoria-producto/silleria/sillas-directivas/",
+      "ogType": "article",
+      "ogDescription": "Experimenta el poder del liderazgo con nuestras sillas directivas. Diseñadas para reflejar autoridad y comodidad excepcional, estas sillas ofrecen el nivel más alto de estilo y soporte ejecutivo."
+    },
+    "layout": "elementor"
+  },
+  {
+    "slug": "mobiliario-italiano",
+    "name": "Mobiliario Italiano",
+    "parent": null,
+    "href": "/mobiliario-italiano/",
+    "description": ""
+  },
+  {
+    "slug": "larus",
+    "name": "Larus",
+    "parent": "mobiliario-italiano",
+    "href": "/mobiliario-italiano/",
+    "description": ""
+  },
+  {
+    "slug": "lithos",
+    "name": "Lithos",
+    "parent": "mobiliario-italiano",
+    "href": "/mobiliario-italiano/",
+    "description": ""
+  },
+  {
+    "slug": "recepciones",
+    "name": "Recepciones",
+    "parent": null,
+    "href": "/recepciones/",
+    "description": ""
+  },
+  {
+    "slug": "sofas",
+    "name": "Sofás",
+    "parent": null,
+    "href": "/sofas/",
+    "description": ""
+  },
+  {
+    "slug": "sillas-ejecutivas",
+    "name": "Sillas ejecutivas",
+    "parent": "silleria",
+    "href": "/categoria-producto/silleria/sillas-ejecutivas/",
+    "description": "Nuestras línea de sillas ejecutivas fusiona el lujo y la funcionalidad para ofrecer un diseño distintivo y comodidad ergonómica que potencia tu espacio de trabajo.",
+    "seo": {
+      "title": "Sillas ejecutivas – Qualcomm Mobili Italiani",
+      "description": "",
+      "canonical": "/categoria-producto/silleria/sillas-ejecutivas/",
+      "ogType": "article",
+      "ogDescription": "Nuestras línea de sillas ejecutivas fusiona el lujo y la funcionalidad para ofrecer un diseño distintivo y comodidad ergonómica que potencia tu espacio de trabajo."
+    },
+    "layout": "elementor"
+  },
+  {
+    "slug": "sillas-operativas",
+    "name": "Sillas operativas",
+    "parent": "silleria",
+    "href": "/categoria-producto/silleria/sillas-operativas/",
+    "description": "Afronta cada tarea con nuestras sillas operativas diseñadas para la máxima eficiencia. Comodidad ergonómica y estilo contemporáneo para una experiencia laboral de alto nivel.",
+    "seo": {
+      "title": "Sillas operativas – Qualcomm Mobili Italiani",
+      "description": "",
+      "canonical": "/categoria-producto/silleria/sillas-operativas/",
+      "ogType": "article",
+      "ogDescription": "Afronta cada tarea con nuestras sillas operativas diseñadas para la máxima eficiencia. Comodidad ergonómica y estilo contemporáneo para una experiencia laboral de alto nivel."
+    },
+    "layout": "elementor"
+  },
+  {
+    "slug": "sillas-industriales",
+    "name": "Sillas industriales",
+    "parent": "silleria",
+    "href": "/categoria-producto/silleria/sillas-industriales/",
+    "description": "Descubre la resistencia y funcionalidad en nuestras sillas industriales. Diseñadas para entornos exigentes, estas sillas ofrecen durabilidad y confort, fusionando robustez con estilo contemporáneo.",
+    "seo": {
+      "title": "Sillas industriales – Qualcomm Mobili Italiani",
+      "description": "",
+      "canonical": "/categoria-producto/silleria/sillas-industriales/",
+      "ogType": "article",
+      "ogDescription": "Descubre la resistencia y funcionalidad en nuestras sillas industriales. Diseñadas para entornos exigentes, estas sillas ofrecen durabilidad y confort, fusionando robustez con estilo contemporáneo."
+    },
+    "layout": "elementor"
+  },
+  {
+    "slug": "sillas-secretariales",
+    "name": "Sillas secretariales",
+    "parent": "silleria",
+    "href": "/categoria-producto/silleria/sillas-secretariales/",
+    "description": "Optimiza tu rendimiento con nuestras sillas secretariales. Diseñadas para la eficiencia y el confort, estas sillas ofrecen el soporte ergonómico necesario para tu jornada laboral productiva.",
+    "seo": {
+      "title": "Sillas secretariales – Qualcomm Mobili Italiani",
+      "description": "",
+      "canonical": "/categoria-producto/silleria/sillas-secretariales/",
+      "ogType": "article",
+      "ogDescription": "Optimiza tu rendimiento con nuestras sillas secretariales. Diseñadas para la eficiencia y el confort, estas sillas ofrecen el soporte ergonómico necesario para tu jornada laboral productiva."
+    },
+    "layout": "elementor"
+  },
+  {
+    "slug": "sillas-escolar",
+    "name": "Sillas escolar",
+    "parent": "silleria",
+    "href": "/categoria-producto/silleria/sillas-escolar/",
+    "description": "Diseñadas para la comodidad y la concentración, las sillas escolares ofrecen un soporte ergonómico esencial para el ambiente educativo moderno.",
+    "seo": {
+      "title": "Sillas escolar – Qualcomm Mobili Italiani",
+      "description": "",
+      "canonical": "/categoria-producto/silleria/sillas-escolar/",
+      "ogType": "article",
+      "ogDescription": "Diseñadas para la comodidad y la concentración, las sillas escolares ofrecen un soporte ergonómico esencial para el ambiente educativo moderno."
+    },
+    "layout": "elementor"
+  },
+  {
+    "slug": "taburetes",
+    "name": "Taburetes",
+    "parent": "silleria",
+    "href": "/categoria-producto/silleria/taburetes/",
+    "description": "Diseñados para añadir estilo y funcionalidad a cualquier espacio, estos taburetes son la opción perfecta para una sillería contemporánea y dinámica.",
+    "seo": {
+      "title": "Taburetes – Qualcomm Mobili Italiani",
+      "description": "",
+      "canonical": "/categoria-producto/silleria/taburetes/",
+      "ogType": "article",
+      "ogDescription": "Diseñados para añadir estilo y funcionalidad a cualquier espacio, estos taburetes son la opción perfecta para una sillería contemporánea y dinámica."
+    },
+    "layout": "elementor"
+  },
+  {
+    "slug": "bancas",
+    "name": "Bancas",
+    "parent": "silleria",
+    "href": "/categoria-producto/silleria/bancas/",
+    "description": "Soluciones de asiento versátiles para tus espacios. Descubre cómo la comodidad y el diseño se encuentran en armonía en cada pieza de nuestra colección de bancas.",
+    "seo": {
+      "title": "Bancas – Qualcomm Mobili Italiani",
+      "description": "",
+      "canonical": "/categoria-producto/silleria/bancas/",
+      "ogType": "article",
+      "ogDescription": "Soluciones de asiento versátiles para tus espacios. Descubre cómo la comodidad y el diseño se encuentran en armonía en cada pieza de nuestra colección de bancas."
+    },
+    "layout": "elementor"
+  },
+  {
+    "slug": "sillas-visita",
+    "name": "Sillas visita",
+    "parent": "silleria",
+    "href": "/categoria-producto/silleria/sillas-visita/",
+    "description": "Recibe a tus visitantes con estilo. Nuestras sillas de visita fusionan comodidad y elegancia para crear un espacio acogedor que impacta desde la primera impresión.",
+    "seo": {
+      "title": "Sillas visita – Qualcomm Mobili Italiani",
+      "description": "",
+      "canonical": "/categoria-producto/silleria/sillas-visita/",
+      "ogType": "article",
+      "ogDescription": "Recibe a tus visitantes con estilo. Nuestras sillas de visita fusionan comodidad y elegancia para crear un espacio acogedor que impacta desde la primera impresión."
+    },
+    "layout": "elementor"
+  },
+  {
+    "slug": "linea-temx",
+    "name": "Línea TEMX",
+    "parent": "mobiliario-nacional",
+    "href": "/categoria-producto/mobiliario-nacional/linea-temx/",
+    "description": "Línea de mobiliario con un enfoque destacado en las credenzas con diseño único de dos tonos de color. Estos elegantes muebles fusionan la funcionalidad con la estética, creando un impacto visual sorprendente en cualquier espacio. La combinación de dos tonalidades contrastantes agrega profundidad y estilo a cada escritorio, ofreciendo una apariencia moderna y sofisticada. Con acabados de alta calidad y detalles cuidadosamente seleccionados, estos escritorios no solo son visualmente atractivos, sino también prácticas, con amplio espacio de almacenamiento y opciones de organización inteligentes.",
+    "seo": {
+      "title": "Línea TEMX – Qualcomm Mobili Italiani",
+      "description": "",
+      "canonical": "/categoria-producto/mobiliario-nacional/linea-temx/",
+      "ogType": "article",
+      "ogDescription": "Línea de mobiliario con un enfoque destacado en las credenzas con diseño único de dos tonos de color. Estos elegantes muebles fusionan la funcionalidad con la estética, creando un impacto visual sorprendente en cualquier espacio. La combinación de dos tonalidades contrastantes agrega profundidad y estilo a cada escritorio, ofreciendo una apariencia moderna y sofisticada. Con acabados de alta calidad y detalles cuidadosamente seleccionados, estos escritorios no solo son visualmente atractivos, sino también prácticas, con amplio espacio de almacenamiento y opciones de organización inteligentes."
+    },
+    "layout": "elementor"
+  },
+  {
+    "slug": "linea-air-duo",
+    "name": "Línea Air Duo",
+    "parent": "mobiliario-nacional",
+    "href": "/categoria-producto/mobiliario-nacional/linea-air-duo/",
+    "description": "Air Duo es un conjunto impresionante que fusiona elementos de excepcional belleza. Inspirado en la armonía de un entorno sereno, este diseño cautiva con cautelosas combinaciones de colores y materiales. Cada elemento conserva su propia identidad, enriqueciendo el conjunto en su totalidad. La cubierta de los escritorios, crea la ilusión de flotar en contraste con la base metálica. La pata de acero actúa como punto de conexión y separación, logrando un efecto de levitación impactante.",
+    "seo": {
+      "title": "Línea Air Duo – Qualcomm Mobili Italiani",
+      "description": "",
+      "canonical": "/categoria-producto/mobiliario-nacional/linea-air-duo/",
+      "ogType": "article",
+      "ogDescription": "Air Duo es un conjunto impresionante que fusiona elementos de excepcional belleza. Inspirado en la armonía de un entorno sereno, este diseño cautiva con cautelosas combinaciones de colores y materiales. Cada elemento conserva su propia identidad, enriqueciendo el conjunto en su totalidad. La cubierta de los escritorios, crea la ilusión de flotar en contraste con la base metálica. La pata de acero actúa como punto de conexión y separación, logrando un efecto de levitación impactante."
+    },
+    "layout": "elementor"
+  },
+  {
+    "slug": "linea-basic",
+    "name": "Línea Basic",
+    "parent": "mobiliario-nacional",
+    "href": "/categoria-producto/mobiliario-nacional/linea-basic/",
+    "description": "Línea de mobiliario básico, diseñada para ofrecer funcionalidad y estilo atemporal a cualquier espacio. Fabricada completamente en melamina de alta calidad, esta línea combina durabilidad y estética en cada pieza. Con un enfoque minimalista, cada mueble ha sido cuidadosamente diseñado para adaptarse a diferentes entornos, ya sea en el hogar, la oficina o cualquier otro espacio. Además, la melamina garantiza una superficie resistente, fácil de limpiar y mantener. Nuestra línea de mobiliario básico de melamina es la elección perfecta para aquellos que buscan calidad, funcionalidad y estilo sin complicaciones.",
+    "seo": {
+      "title": "Línea Basic – Qualcomm Mobili Italiani",
+      "description": "",
+      "canonical": "/categoria-producto/mobiliario-nacional/linea-basic/",
+      "ogType": "article",
+      "ogDescription": "Línea de mobiliario básico, diseñada para ofrecer funcionalidad y estilo atemporal a cualquier espacio. Fabricada completamente en melamina de alta calidad, esta línea combina durabilidad y estética en cada pieza. Con un enfoque minimalista, cada mueble ha sido cuidadosamente diseñado para adaptarse a diferentes entornos, ya sea en el hogar, la oficina o cualquier otro espacio. Además, la melamina garantiza una superficie resistente, fácil de limpiar y mantener. Nuestra línea de mobiliario básico de melamina es la elección perfecta para aquellos que buscan calidad, funcionalidad y estilo sin complicaciones."
+    },
+    "layout": "elementor"
+  },
+  {
+    "slug": "linea-versatil",
+    "name": "Línea Versátil",
+    "parent": "mobiliario-nacional",
+    "href": "/categoria-producto/mobiliario-nacional/linea-versatil/",
+    "description": "Versátil es un sistema diseñado para proporcionar soluciones versátiles en la organización de las oficinas. Ofrece una amplia gama de opciones, desde escritorios rectos hasta mesas de junta con bases de melamina, metal o híbrido, todos con un diseño inclinado distintivo que resalta su versatilidad. Este sistema se alinea con la tendencia constante de crear ambientes de oficina agradables y funcionales, brindando soluciones nuevas y económicas que se adaptan a diferentes gustos y necesidades.",
+    "seo": {
+      "title": "Línea Versátil – Qualcomm Mobili Italiani",
+      "description": "",
+      "canonical": "/categoria-producto/mobiliario-nacional/linea-versatil/",
+      "ogType": "article",
+      "ogDescription": "Versátil es un sistema diseñado para proporcionar soluciones versátiles en la organización de las oficinas. Ofrece una amplia gama de opciones, desde escritorios rectos hasta mesas de junta con bases de melamina, metal o híbrido, todos con un diseño inclinado distintivo que resalta su versatilidad. Este sistema se alinea con la tendencia constante de crear ambientes de oficina agradables y funcionales, brindando soluciones nuevas y económicas que se adaptan a diferentes gustos y necesidades."
+    },
+    "layout": "elementor"
+  },
+  {
+    "slug": "linea-dinamo",
+    "name": "Línea Dinamo",
+    "parent": "mobiliario-nacional",
+    "href": "/categoria-producto/mobiliario-nacional/linea-dinamo/",
+    "description": "Presentamos nuestra innovadora mesa plegable y apilable, diseñada para brindar versatilidad y comodidad en cualquier entorno. Esta mesa combina funcionalidad y practicidad en un solo producto, ideal para espacios que requieren flexibilidad y eficiencia en almacenamiento. Cuando no se utiliza, la mesa se pliega fácilmente, ocupando un espacio mínimo y permitiendo un almacenamiento compacto. Además, su diseño apilable te permite apilar varias mesas juntas, maximizando aún más el espacio disponible.",
+    "seo": {
+      "title": "Línea Dinamo – Qualcomm Mobili Italiani",
+      "description": "",
+      "canonical": "/categoria-producto/mobiliario-nacional/linea-dinamo/",
+      "ogType": "article",
+      "ogDescription": "Presentamos nuestra innovadora mesa plegable y apilable, diseñada para brindar versatilidad y comodidad en cualquier entorno. Esta mesa combina funcionalidad y practicidad en un solo producto, ideal para espacios que requieren flexibilidad y eficiencia en almacenamiento. Cuando no se utiliza, la mesa se pliega fácilmente, ocupando un espacio mínimo y permitiendo un almacenamiento compacto. Además, su diseño apilable te permite apilar varias mesas juntas, maximizando aún más el espacio disponible."
+    },
+    "layout": "elementor"
+  }
+]

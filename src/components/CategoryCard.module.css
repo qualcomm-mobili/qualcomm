@@ -1,0 +1,18 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-widget);
+}
+
+.media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .media {
+    align-self: center;
+    width: 70%;
+  }
+}

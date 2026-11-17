@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-widget);
+}
+
+.media {
+  display: block;
+  cursor: zoom-in;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}

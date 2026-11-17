@@ -1,0 +1,33 @@
+.grid {
+  --pad: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px 16px;
+}
+
+.catalog {
+  padding-top: var(--pad);
+}
+
+.spaceAfter {
+  padding-bottom: var(--pad);
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    --pad: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .grid {
+    --pad: 20px;
+    row-gap: 40px;
+  }
+
+  .related {
+    row-gap: 20px;
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "seo": {
+    "title": "Gracias por contactarnos - Qualcomm Mobili Italiani",
+    "description": "Tu información ha sido enviada correctamente. Uno de nuestros agentes estará respondiendo a la brevedad posible.",
+    "canonical": "/gracias-por-contactarnos/",
+    "ogType": "article",
+    "published": "2023-11-28T12:18:14-06:00",
+    "modified": "2023-11-28T12:24:51-06:00"
+  },
+  "logo": "/wp-content/uploads/2023/11/qualcomm-mobili-italiani-logo.svg",
+  "title": "¡Gracias!",
+  "text": "Tu información ha sido enviada correctamente. Uno de nuestros agentes estará respondiendo a la brevedad posible.",
+  "button": {
+    "label": "Regresar",
+    "href": "/home/"
+  }
+}

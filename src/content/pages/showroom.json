@@ -1,0 +1,21 @@
+{
+  "seo": {
+    "title": "Showroom - Qualcomm Mobili Italiani",
+    "description": "Ven y conoce nuestro showroom, el lugar donde la funcionalidad se encuentra con la elegancia.",
+    "canonical": "/showroom/",
+    "ogType": "article",
+    "published": "2023-11-21T13:43:36-06:00",
+    "modified": "2023-11-22T11:08:40-06:00"
+  },
+  "title": "Showroom",
+  "intro": "Ven y conoce nuestro showroom, el lugar donde la funcionalidad se encuentra con la elegancia.",
+  "address": [
+    "Prolongación Ruiz Cortines 2941",
+    "Colonia Policía Auxiliar",
+    "Guadalupe, Nuevo León, México C.P. 67114"
+  ],
+  "map": {
+    "title": "Mobiset",
+    "src": "https://maps.google.com/maps?q=Mobiset&t=m&z=15&output=embed&iwloc=near"
+  }
+}

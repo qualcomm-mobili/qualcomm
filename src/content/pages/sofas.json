@@ -1,0 +1,31 @@
+{
+  "seo": {
+    "title": "Sofás - Qualcomm Mobili Italiani",
+    "description": "Descubre el lujo y la elegancia en nuestra colección de sofás. Diseñados para brindar confort y estilo a tu espacio, nuestros sofás son la expresión máxima de",
+    "canonical": "/sofas/",
+    "ogType": "article",
+    "published": "2023-11-24T13:47:26-06:00",
+    "modified": "2023-11-25T18:32:58-06:00"
+  },
+  "title": "Sofás",
+  "intro": "Descubre el lujo y la elegancia en nuestra colección de sofás. Diseñados para brindar confort y estilo a tu espacio, nuestros sofás son la expresión máxima de la sofisticación. Desde líneas modernas hasta detalles clásicos, cada pieza es una invitación a la relajación y el buen gusto. Transforma tu entorno con nuestros sofás, donde la comodidad se encuentra con el diseño excepcional.",
+  "blocks": [
+    {
+      "type": "products",
+      "products": [
+        "atenas",
+        "birmania",
+        "braun",
+        "cairo",
+        "cannes",
+        "dubai-ii",
+        "elegance-i",
+        "elegance-ii",
+        "malaga",
+        "square",
+        "suiza",
+        "tenerife"
+      ]
+    }
+  ]
+}

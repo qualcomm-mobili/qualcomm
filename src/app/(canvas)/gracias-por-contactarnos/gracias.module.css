@@ -1,0 +1,34 @@
+.page {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-widget);
+}
+
+.inner > a {
+  align-self: center;
+}
+
+/* El widget de imagen del original deja 32px (desktop) / 16px bajo el logo. */
+.logo {
+  display: block;
+  width: 150px;
+  height: auto;
+  margin-bottom: 32px;
+}
+
+.title {
+  font-size: var(--fs-h2);
+}
+
+@media (max-width: 1024px) {
+  .logo {
+    margin-bottom: 16px;
+  }
+}

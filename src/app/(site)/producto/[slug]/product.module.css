@@ -1,0 +1,104 @@
+.hero {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding-block: var(--space-section);
+}
+
+/* Dos columnas iguales (560px en desktop); el padding de la derecha va por dentro. */
+.media,
+.info {
+  flex: 0 0 calc(50% - 10px);
+  min-width: 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-widget);
+  padding-left: 50px;
+}
+
+.title {
+  margin-bottom: 0.625rem;
+  font-size: var(--fs-h2);
+}
+
+/* "¡Me interesa!" y "Regresar": dos columnas en desktop, apilados en tablet y móvil. */
+.actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.button {
+  display: block;
+  padding: 12px 24px;
+  border: 2px solid var(--c-accent);
+  border-radius: var(--radius-button);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.primary {
+  background: var(--c-accent);
+  color: var(--c-white);
+}
+
+.primary:hover {
+  border-color: var(--c-accent-hover);
+  background: var(--c-accent-hover);
+  color: var(--c-white);
+}
+
+.secondary {
+  background: var(--c-white);
+  color: var(--c-accent);
+}
+
+/* Relacionados: título de 24px y 30px hasta la cuadrícula. */
+.relatedTitle.relatedTitle {
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 1;
+}
+
+@media (max-width: 1024px) {
+  .info {
+    padding-left: 16px;
+  }
+
+  .title {
+    margin-bottom: 0;
+  }
+
+  .actions {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .media,
+  .info {
+    flex-basis: auto;
+  }
+
+  .info {
+    padding-left: 0;
+  }
+
+  .relatedTitle.relatedTitle {
+    font-size: 20px;
+    line-height: 1.12;
+  }
+}

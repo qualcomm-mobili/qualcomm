@@ -1,0 +1,32 @@
+{
+  "seo": {
+    "title": "Descargar catálogo - Qualcomm Mobili Italiani",
+    "description": "Por favor ingresa tu correo electrónico para descargar nuestro catálogo.",
+    "canonical": "/descargar-catalogo/",
+    "ogType": "article",
+    "published": "2023-11-22T11:32:57-06:00",
+    "modified": "2026-01-07T15:33:31-06:00"
+  },
+  "title": "Descargar catálogo",
+  "intro": "Por favor ingresa tu correo electrónico para descargar nuestro catálogo.",
+  "form": {
+    "name": "Forma de contacto catálogo",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Tu nombre",
+        "type": "text",
+        "required": true,
+        "width": "half"
+      },
+      {
+        "name": "email",
+        "label": "Tu Email",
+        "type": "email",
+        "required": true,
+        "width": "half"
+      }
+    ],
+    "submit": "Descargar"
+  }
+}

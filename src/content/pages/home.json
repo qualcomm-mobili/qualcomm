@@ -1,0 +1,134 @@
+{
+  "seo": {
+    "title": "Home - Qualcomm Mobili Italiani",
+    "description": "Sumérgete en el mundo del prestigio Italiano y lo mejor de la fabricación nacional en muebles de oficina y sillería.",
+    "canonical": "/",
+    "ogType": "website",
+    "ogUpdatedTime": "2023-11-28T11:51:38-06:00",
+    "published": "2023-11-21T16:24:36-06:00",
+    "modified": "2023-11-28T11:51:38-06:00"
+  },
+  "hero": {
+    "title": "Mobiliario Exclusivo Para Oficina",
+    "lead": "Sumérgete en el mundo del prestigio Italiano y lo mejor de la fabricación nacional en muebles de oficina y sillería.",
+    "text": "Diseños exclusivos, calidad insuperable, y más de 15 años en el mercado nos respaldan.",
+    "button": {
+      "label": "Ver catálogo",
+      "href": "/catalogo/"
+    },
+    "note": {
+      "text": "¿Tienes un proyecto en puerta?",
+      "link": {
+        "label": "¡Contáctanos!",
+        "href": "/contacto/"
+      }
+    },
+    "slideshow": [
+      "/wp-content/uploads/2023/11/Larus-LAR-1-1.jpg",
+      "/wp-content/uploads/2023/11/Air-Duo-AD2-1.jpg",
+      "/wp-content/uploads/2023/11/Lithos-LIT-2-2.jpg",
+      "/wp-content/uploads/2023/11/Versatil-V3-HYBLSP.jpg"
+    ],
+    "slideDurationMs": 2500
+  },
+  "welcome": {
+    "title": "Bienvenidos",
+    "lead": "Somos tu destino definitivo para la excelencia en mobiliario de oficina.",
+    "text": "Nuestro compromiso es ofrecer soluciones de mobiliario excepcionales que fusionan funcionalidad, estilo y calidad inigualable.",
+    "images": [
+      {
+        "src": "/wp-content/uploads/2023/11/Larus-LAR-1-3.jpg",
+        "position": "left"
+      },
+      {
+        "src": "/wp-content/uploads/2023/11/H2O-1.jpg",
+        "position": "center"
+      }
+    ],
+    "aside": {
+      "lead": "Desde diseños contemporáneos, hasta clásicos atemporales, te ayudamos a transformar tu entorno de trabajo en un lugar donde la productividad y la estética se unen armoniosamente.",
+      "text": "Descubre cómo nuestros muebles pueden llevar tu oficina al siguiente nivel.",
+      "button": {
+        "label": "Contacta a un agente",
+        "href": "#"
+      }
+    }
+  },
+  "categories": {
+    "title": "Muebles exclusivos para tu espacio de trabajo",
+    "items": [
+      {
+        "title": "Sillas para oficina",
+        "text": "Nuestras sillas están diseñadas para brindarte el soporte necesario durante tus largas jornadas de trabajo, sin comprometer la elegancia y la ergonomía.",
+        "image": "/wp-content/uploads/2023/11/Castell-1.jpg",
+        "imageHref": "/silleria/",
+        "button": {
+          "label": "Ver productos",
+          "href": "/catalogo/"
+        }
+      },
+      {
+        "title": "Mesas y escritorios para oficina",
+        "text": "Encuentra la mesa o escritorio perfecto para tu oficina. Nuestra selección ofrece soluciones de calidad que optimizan tu espacio de trabajo.",
+        "image": "/wp-content/uploads/2023/11/Uno-3.jpg",
+        "imageHref": "/mobiliario-italiano/",
+        "button": {
+          "label": "Ver productos",
+          "href": "/catalogo/"
+        }
+      },
+      {
+        "title": "Salas y sofás para oficina",
+        "text": "Transforma tu entorno de trabajo con nuestras salas y sofás para oficina. Soluciones cómodas y elegantes que promueven bienestar y colaboración.",
+        "image": "/wp-content/uploads/2023/11/Elegance-Perspectiva.jpg",
+        "imageHref": "/soft-seating/",
+        "button": {
+          "label": "Ver productos",
+          "href": "/catalogo/"
+        }
+      }
+    ]
+  },
+  "reasons": {
+    "title": "La mejor opción para amueblar tu oficina",
+    "columns": [
+      {
+        "layout": "text-then-image",
+        "items": [
+          {
+            "title": "Diseños exclusivos",
+            "text": "Sillas y muebles a la altura de las necesidades de tu espacio de trabajo."
+          }
+        ],
+        "image": "/wp-content/uploads/2023/11/disenos-exclusivos-qualcomm.png"
+      },
+      {
+        "layout": "stack",
+        "items": [
+          {
+            "title": "Equipo profesional",
+            "text": "Permite que nuestros agentes te asesoren eligiendo los muebles adecuados para tu proyecto."
+          },
+          {
+            "title": "24 años de experiencia",
+            "text": "Amplia experiencia proporcionado a nuestros clientes sillas y mobiliario de oficina de la más alta calidad."
+          },
+          {
+            "title": "Somos fabricantes",
+            "text": "Necesidades específicas, requieren soluciones específicas. Fabricamos muebles según tus requerimientos."
+          }
+        ]
+      },
+      {
+        "layout": "image-then-text",
+        "items": [
+          {
+            "title": "Tus muebles en tiempo y forma",
+            "text": "Contamos con unidades especiales y personal capacitado para transportar e instalar los muebles para tu oficina."
+          }
+        ],
+        "image": "/wp-content/uploads/2023/11/tus-muebles-en-tiempo-y-en-forma-qualcomm.png"
+      }
+    ]
+  }
+}

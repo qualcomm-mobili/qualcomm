@@ -1,0 +1,37 @@
+{
+  "name": "qualcomm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "inventory:fetch": "node scripts/inventory/fetch-source.mjs",
+    "inventory:build": "node scripts/inventory/build-inventory.mjs && node scripts/inventory/write-report.mjs",
+    "inventory:media": "node scripts/inventory/download-media.mjs",
+    "media:manifest": "node scripts/media-manifest.mjs",
+    "content:catalog": "node scripts/content/extract-catalog.mjs && node scripts/content/add-dates.mjs",
+    "verify:urls": "node scripts/verify/check-urls.mjs",
+    "verify:links": "node scripts/verify/crawl.mjs",
+    "verify:visual": "node scripts/verify/visual-diff.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "cheerio": "^1.2.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.6",
+    "image-size": "^2.1.0",
+    "playwright": "^1.65.1",
+    "sharp": "^0.35.5",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@11.27.1"
+}

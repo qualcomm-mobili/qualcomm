@@ -1,0 +1,127 @@
+.gallery {
+  position: relative;
+}
+
+.viewport {
+  position: relative;
+  overflow: hidden;
+  transition: aspect-ratio 0.5s;
+}
+
+.track {
+  display: flex;
+  align-items: flex-start;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  position: relative;
+  flex: 0 0 100%;
+  cursor: zoom-in;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Zoom al pasar el cursor: la imagen a su tamaño real sigue al puntero (jQuery Zoom de WooCommerce). */
+.zoom {
+  position: absolute;
+  inset: 0;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+@media (hover: none) {
+  .zoom {
+    display: none;
+  }
+}
+
+/* Lupa: círculo blanco de 36px dibujado con CSS, como el de WooCommerce. */
+.trigger {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  z-index: 3;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 0;
+  border-radius: 100%;
+  background: #fff;
+  font: inherit; /* top/right = 1em del texto del cuerpo (18/17/16px), como en el original */
+  cursor: pointer;
+}
+
+.trigger::before,
+.trigger::after {
+  box-sizing: content-box; /* como WooCommerce; el reset global usa border-box */
+}
+
+.trigger::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #000;
+  border-radius: 100%;
+}
+
+.trigger::after {
+  content: "";
+  position: absolute;
+  top: 19px;
+  left: 22px;
+  width: 2px;
+  height: 8px;
+  border-radius: 6px;
+  background: #000;
+  transform: rotate(-45deg);
+}
+
+/* Miniaturas: 4 por fila. */
+.thumbs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 7px -4px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.thumbs li {
+  padding: 0 4px 8px;
+}
+
+.thumb {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.2s;
+}
+
+.thumb img {
+  object-fit: cover;
+}
+
+.thumb:hover,
+.thumbActive {
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .thumbs {
+    margin-top: 8px;
+  }
+}

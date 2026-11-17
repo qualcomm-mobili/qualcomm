@@ -1,0 +1,39 @@
+.tile {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.media {
+  position: relative;
+  height: 270px;
+}
+
+.media img {
+  object-fit: cover;
+}
+
+.label {
+  font-size: var(--fs-body);
+  line-height: 1;
+}
+
+.label a {
+  color: var(--c-heading);
+}
+
+.label a:hover {
+  color: var(--c-accent-hover);
+}
+
+@media (max-width: 1024px) {
+  .media {
+    height: 250px;
+  }
+}
+
+@media (max-width: 767px) {
+  .media {
+    height: 150px;
+  }
+}
