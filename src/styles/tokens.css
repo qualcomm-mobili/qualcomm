@@ -1,0 +1,154 @@
+/*
+ * Tokens de la identidad nueva de Qualcomm.
+ * Escalas fluidas: clamp() lineal entre 375 px (móvil) y 1280 px (desktop).
+ * Breakpoints de referencia (CSS no admite variables en @media; escribirlos literales): 768 / 1024 / 1280.
+ *
+ * Las fuentes las define next/font/local en src/styles/fonts.ts (--font-caslon-display, --font-caslon-text,
+ * --font-fustat sobre <html>); aquí solo se les da nombre semántico.
+ */
+:root {
+  /* ── Color: primitivos ─────────────────────────────────────────────── */
+  --qc-black: #111413;
+  --qc-ebony: #555c54;
+  --qc-pig-iron: #99918d; /* NO para texto sobre fondo claro (no cumple AA): solo bordes y detalles. */
+  --qc-moon-mist: #ccccc6;
+  --qc-pampas: #f4f2ef;
+  --qc-white: #ffffff;
+
+  /* ── Color: conjunto inverso (secciones oscuras, se aplica con .qc-inverse) ── */
+  --inverse-button-bg: var(--qc-pampas);
+  --inverse-button-bg-hover: var(--qc-moon-mist);
+  --inverse-button-text: var(--qc-black);
+  --inverse-border: var(--qc-ebony);
+  --inverse-card-bg: transparent;
+
+  /* ── Tipografía: familias ──────────────────────────────────────────── */
+  --font-display: var(--font-caslon-display), Georgia, "Times New Roman", serif;
+  --font-serif: var(--font-caslon-text), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-fustat), system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+
+  /* ── Tipografía: escala fluida (móvil → desktop) ───────────────────── */
+  --text-display: clamp(2.75rem, 1.6106rem + 4.862vw, 5.5rem); /* 44 → 88 */
+  --text-h1: clamp(2.25rem, 1.525rem + 3.094vw, 4rem); /* 36 → 64 */
+  --text-h2: clamp(1.875rem, 1.4088rem + 1.989vw, 3rem); /* 30 → 48 */
+  --text-h3: clamp(1.5rem, 1.2928rem + 0.884vw, 2rem); /* 24 → 32 */
+  --text-h4: clamp(1.25rem, 1.1464rem + 0.442vw, 1.5rem); /* 20 → 24 */
+  --text-lead: clamp(1.125rem, 1.0214rem + 0.442vw, 1.375rem); /* 18 → 22 */
+  --text-body: clamp(1rem, 0.9741rem + 0.1105vw, 1.0625rem); /* 16 → 17 */
+  --text-small: 0.875rem; /* 14 */
+  --text-eyebrow: clamp(0.75rem, 0.7241rem + 0.1105vw, 0.8125rem); /* 12 → 13 */
+
+  /* ── Tipografía: interlineado y tracking ───────────────────────────── */
+  --leading-display: 1.05;
+  --leading-heading: 1.1;
+  --leading-heading-sm: 1.15; /* h3 / h4 */
+  --leading-body: 1.6;
+  --tracking-caps: 0.02em; /* titulares en mayúsculas */
+  --tracking-eyebrow: 0.14em;
+
+  /* ── Tipografía: pesos de Fustat ───────────────────────────────────── */
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+
+  /* ── Espaciado (base 4 px) ─────────────────────────────────────────── */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --space-10: 128px;
+  --section-y: clamp(64px, 10vw, 128px); /* padding vertical de sección */
+
+  /* ── Layout ────────────────────────────────────────────────────────── */
+  --container-max: 1280px;
+  --container-narrow: 760px;
+  --gutter: clamp(20px, 5vw, 64px);
+
+  /* ── Bordes ────────────────────────────────────────────────────────── */
+  --radius-sm: 4px; /* botones, inputs, chips */
+  --radius-md: 6px; /* tarjetas, imágenes de producto */
+  --radius-lg: 10px; /* banners, imágenes grandes */
+  --radius-full: 999px; /* solo indicadores circulares */
+  --border-width: 1px;
+
+  /* ── Sombras ───────────────────────────────────────────────────────── */
+  --shadow-sm: 0 1px 2px rgb(17 20 19 / 0.06);
+  --shadow-md: 0 8px 24px rgb(17 20 19 / 0.08);
+
+  /* ── Movimiento ────────────────────────────────────────────────────── */
+  --duration-fast: 150ms;
+  --duration-base: 250ms;
+  --duration-slow: 400ms;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+}
+
+/*
+ * Tema claro: semánticos y tokens de componente. Viven en :root y se repiten con .qc-light para poder
+ * volver a lo claro dentro de una sección .qc-inverse (tarjeta clara, input, banner…).
+ */
+:root,
+.qc-light {
+  /* ── Color: semánticos ─────────────────────────────────────────────── */
+  --color-bg: var(--qc-pampas);
+  --color-surface: var(--qc-white);
+  --color-surface-alt: var(--qc-moon-mist);
+  --color-text: var(--qc-black);
+  --color-text-muted: var(--qc-ebony);
+  --color-accent: var(--qc-ebony);
+  --color-accent-hover: color-mix(in srgb, var(--qc-ebony), black 12%);
+  --color-border: var(--qc-moon-mist);
+  --color-border-strong: var(--qc-pig-iron);
+  --color-inverse-bg: var(--qc-black);
+  --color-inverse-text: var(--qc-pampas);
+  --color-inverse-muted: var(--qc-moon-mist);
+
+  /* ── Color: tokens de componente ────────────────────────────────── */
+  --button-bg: var(--color-accent);
+  --button-bg-hover: var(--color-accent-hover);
+  --button-text: var(--qc-white);
+  --card-bg: var(--color-surface);
+}
+
+.qc-light {
+  color: var(--color-text);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-fast: 0ms;
+    --duration-base: 0ms;
+    --duration-slow: 0ms;
+  }
+}
+
+/*
+ * Sección oscura (.qc-inverse): fondo black y remapeo de los tokens semánticos, para que los componentes dentro
+ * (que leen --color-text, --color-border, --button-*, --card-bg…) se adapten solos.
+ */
+.qc-inverse {
+  --color-text: var(--color-inverse-text);
+  --color-text-muted: var(--color-inverse-muted);
+  --color-border: var(--inverse-border);
+  --button-bg: var(--inverse-button-bg);
+  --button-bg-hover: var(--inverse-button-bg-hover);
+  --button-text: var(--inverse-button-text);
+  --card-bg: var(--inverse-card-bg);
+  background: var(--color-inverse-bg);
+  color: var(--color-text);
+}
+
+/* Palabra conectora en itálica dentro de un titular ("ESPACIOS de TRABAJO"): mismo tamaño, en minúscula. */
+.qc-connector {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: inherit;
+  text-transform: lowercase;
+  letter-spacing: 0;
+}

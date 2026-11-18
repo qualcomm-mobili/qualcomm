@@ -36,3 +36,15 @@ Nada de "div soup" de Elementor: pocos componentes propios y reutilizables.
 
 Header (menú overlay en móvil), Footer, Hero, Section, CategoryCard, ProductGrid,
 ProductGallery, Form (visual).
+
+## Rediseño (identidad nueva)
+
+- Tokens en `src/styles/tokens.css` (muestra en `/tokens/`, noindex). Fuentes locales en `src/fonts/` vía `src/styles/fonts.ts`.
+- Temas anidables: `.qc-inverse` (sección oscura) remapea los tokens semánticos y de componente; `.qc-light`
+  los restablece a claro (p. ej. una superficie clara dentro de una sección oscura).
+- Los componentes usan solo tokens semánticos (`--color-*`, `--button-*`, `--card-bg`…), nunca primitivos (`--qc-*`)
+  directos. Los primitivos solo existen dentro de `tokens.css`.
+- Los componentes nuevos se construyen en `src/components/ui/` usando solo `tokens.css`.
+- Los componentes y estilos viejos no se modifican; se borran cuando la página que los usa se reemplace completa por su versión nueva.
+- No mezclar sistemas en una misma página.
+- Por ahora no tocar acumin-pro ni `globals.css`.

@@ -1,0 +1,413 @@
+/* Página de muestra de tokens. Solo usa variables de src/styles/tokens.css. */
+
+.page {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  line-height: var(--leading-body);
+  font-weight: var(--weight-regular);
+}
+
+/* Alias locales de los tokens; dentro de .qc-inverse los tokens ya vienen remapeados. */
+.intro,
+.section {
+  --fg: var(--color-text);
+  --fg-muted: var(--color-text-muted);
+  --line: var(--color-border);
+  --line-strong: var(--color-border-strong);
+  --card: var(--card-bg);
+  --btn-bg: var(--button-bg);
+  --btn-bg-hover: var(--button-bg-hover);
+  --btn-fg: var(--button-text);
+}
+
+.intro,
+.section {
+  width: min(100% - 2 * var(--gutter), var(--container-max));
+  margin-inline: auto;
+  color: var(--fg);
+}
+
+.intro {
+  padding-block: var(--section-y) 0;
+}
+
+.section {
+  padding-block: var(--section-y);
+  border-bottom: var(--border-width) solid var(--line);
+}
+
+.section:last-child {
+  border-bottom: 0;
+}
+
+.muted {
+  color: var(--fg-muted);
+}
+
+.page code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.8125rem;
+}
+
+/* ── Escala tipográfica ─────────────────────────────────────────────── */
+.display,
+.h1,
+.h2 {
+  margin: 0;
+  color: var(--fg);
+  font-family: var(--font-display);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-caps);
+}
+
+.display {
+  font-size: var(--text-display);
+  line-height: var(--leading-display);
+}
+
+.h1 {
+  font-size: var(--text-h1);
+  line-height: var(--leading-heading);
+}
+
+.h2 {
+  font-size: var(--text-h2);
+  line-height: var(--leading-heading);
+  margin-bottom: var(--space-7);
+}
+
+.h3,
+.h4 {
+  margin: 0;
+  color: var(--fg);
+  font-family: var(--font-serif);
+  font-weight: 400;
+  line-height: var(--leading-heading-sm);
+}
+
+.h3 {
+  font-size: var(--text-h3);
+}
+
+.h4 {
+  font-size: var(--text-h4);
+}
+
+.lead {
+  margin: var(--space-5) 0 0;
+  font-size: var(--text-lead);
+  font-weight: var(--weight-light);
+  line-height: var(--leading-body);
+  max-width: var(--container-narrow);
+}
+
+.body {
+  font-size: var(--text-body);
+  max-width: var(--container-narrow);
+}
+
+.small {
+  margin: 0;
+  font-size: var(--text-small);
+  color: var(--fg-muted);
+}
+
+.eyebrow {
+  margin: 0 0 var(--space-4);
+  font-family: var(--font-sans);
+  font-size: var(--text-eyebrow);
+  font-weight: var(--weight-medium);
+  line-height: var(--leading-body);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-eyebrow);
+  color: var(--fg-muted);
+}
+
+.examples {
+  display: grid;
+  gap: var(--space-5);
+  margin-bottom: var(--space-8);
+}
+
+.examples p {
+  margin: 0;
+}
+
+.quienes {
+  font-family: var(--font-display);
+  font-size: var(--text-h1);
+  line-height: var(--leading-heading);
+}
+
+.quienesText {
+  font-family: var(--font-serif);
+  font-size: var(--text-h3);
+  font-style: italic;
+  line-height: var(--leading-heading-sm);
+}
+
+.serif {
+  font-family: var(--font-serif);
+}
+
+.scale {
+  margin: 0;
+}
+
+.scaleRow {
+  display: grid;
+  gap: var(--space-2);
+  padding-block: var(--space-5);
+  border-top: var(--border-width) solid var(--line);
+}
+
+.scaleRow dt {
+  display: flex;
+  gap: var(--space-3);
+  align-items: baseline;
+}
+
+.scaleRow dd {
+  margin: 0;
+}
+
+.weights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-5) var(--space-7);
+  margin: var(--space-6) 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--text-h4);
+}
+
+.weights code {
+  display: block;
+  font-weight: 400;
+  color: var(--fg-muted);
+}
+
+/* ── Color ──────────────────────────────────────────────────────────── */
+.swatches {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: var(--space-5);
+  margin: 0 0 var(--space-7);
+  padding: 0;
+  list-style: none;
+}
+
+.swatch {
+  display: grid;
+  gap: var(--space-1);
+  font-size: var(--text-small);
+}
+
+.chip {
+  height: 96px;
+  margin-bottom: var(--space-2);
+  border: var(--border-width) solid var(--line);
+  border-radius: var(--radius-md);
+}
+
+.semantic {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--space-3) var(--space-5);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--text-small);
+}
+
+.semantic li {
+  display: flex;
+  gap: var(--space-3);
+  align-items: center;
+}
+
+.dot {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  border: var(--border-width) solid var(--line-strong);
+  border-radius: var(--radius-full);
+}
+
+/* ── Espaciado ──────────────────────────────────────────────────────── */
+.spaces {
+  display: grid;
+  gap: var(--space-3);
+  margin: 0 0 var(--space-6);
+  padding: 0;
+  list-style: none;
+}
+
+.spaces li {
+  display: grid;
+  grid-template-columns: 88px 1fr 48px;
+  gap: var(--space-4);
+  align-items: center;
+}
+
+.bar {
+  width: var(--w);
+  height: 16px;
+  background: var(--fg-muted);
+  border-radius: 2px;
+}
+
+/* ── Radios, componentes y sombras ──────────────────────────────────── */
+.radii {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--space-5);
+  margin: 0 0 var(--space-7);
+  padding: 0;
+  list-style: none;
+}
+
+.radii li {
+  display: grid;
+  gap: var(--space-2);
+  font-size: var(--text-small);
+}
+
+.radiusBox {
+  width: 96px;
+  height: 96px;
+  border: var(--border-width) solid var(--line-strong);
+  background: var(--card);
+}
+
+.components {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--space-6);
+  align-items: start;
+  margin-bottom: var(--space-7);
+}
+
+.card {
+  display: grid;
+  gap: var(--space-2);
+  padding: var(--space-4) var(--space-4) var(--space-5);
+  background: var(--card);
+  border: var(--border-width) solid var(--line);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--duration-base) var(--ease);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.card .eyebrow {
+  margin: var(--space-3) 0 0;
+}
+
+.cardImage {
+  aspect-ratio: 4 / 3;
+  background: var(--color-surface-alt);
+  border-radius: var(--radius-md);
+}
+
+.controls {
+  display: grid;
+  gap: var(--space-5);
+  justify-items: start;
+}
+
+.button {
+  padding: var(--space-3) var(--space-5);
+  font: inherit;
+  font-weight: var(--weight-medium);
+  color: var(--btn-fg);
+  background: var(--btn-bg);
+  border: 0;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background-color var(--duration-fast) var(--ease);
+}
+
+.button:hover {
+  background: var(--btn-bg-hover);
+}
+
+.field {
+  display: grid;
+  gap: var(--space-2);
+  width: 100%;
+}
+
+.input {
+  padding: var(--space-3) var(--space-4);
+  font: inherit;
+  color: var(--color-text);
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  transition: border-color var(--duration-fast) var(--ease);
+}
+
+.input:focus {
+  outline: 2px solid var(--fg);
+  outline-offset: 2px;
+}
+
+.indicators {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  border: var(--border-width) solid var(--line-strong);
+  border-radius: var(--radius-full);
+}
+
+.indicator[data-active] {
+  background: var(--fg);
+  border-color: var(--fg);
+}
+
+.banner {
+  display: grid;
+  place-items: center;
+  min-height: 200px;
+  padding: var(--space-6);
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: var(--text-h4);
+  background: var(--color-surface-alt);
+  color: var(--color-text);
+  border-radius: var(--radius-lg);
+}
+
+.shadows {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--space-6);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.shadows li {
+  display: grid;
+  gap: var(--space-2);
+  padding: var(--space-6);
+  font-size: var(--text-small);
+  background: var(--color-surface);
+  color: var(--color-text);
+  border-radius: var(--radius-md);
+}
+
+.shadows li .muted {
+  color: var(--color-text-muted);
+}
